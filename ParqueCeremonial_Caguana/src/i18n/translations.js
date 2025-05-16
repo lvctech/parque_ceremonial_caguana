@@ -68,7 +68,7 @@ export const translations = {
       ]
     },
     nav: {
-      titulo: 'Parque Ceremonial Indígena Caguana',
+      titulo: 'Parque Indígena Caguana',
       plazas: 'Plazas Indígenas',
       petroglifos: 'Petroglifos',
       flora: 'Flora',
@@ -184,7 +184,7 @@ export const translations = {
       ]
     },
     nav: {
-      titulo: 'Caguana Indigenous Ceremonial Park',
+      titulo: 'Caguana Indigenous Park',
       plazas: 'Indigenous Plazas',
       petroglifos: 'Petroglyphs',
       flora: 'Flora',

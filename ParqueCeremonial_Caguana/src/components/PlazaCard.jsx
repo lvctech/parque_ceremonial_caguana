@@ -1,7 +1,8 @@
 // src/components/PlazaCard.jsx
 import React from 'react';
 
-export default function PlazaCard({ title, description, imageUrl, altText }) {
+export default function PlazaCard({ title, description, imageUrl, altText, language, translations }) {
+  const t = translations[language];
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all hover:shadow-lg">
       <div className="h-48 overflow-hidden">
@@ -13,7 +14,9 @@ export default function PlazaCard({ title, description, imageUrl, altText }) {
       </div>
       <div className="p-4">
         <h3 className="text-xl font-semibold text-green-800 mb-2">{title}</h3>
-        <p className="text-gray-700">{description}</p>
+        <button className="border-2 border-green-700 text-green-700 hover:bg-green-700 hover:text-white font-bold py-2 px-4 rounded-lg text-sm">
+          {t.hero.learnMore}
+        </button>
       </div>
     </div>
   );
