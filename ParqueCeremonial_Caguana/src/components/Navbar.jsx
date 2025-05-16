@@ -11,7 +11,7 @@ export default function Navbar({ language, setLanguage, translations }) {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <h1 className="text-xl font-bold text-green-800">Parque Indígena Caguanas</h1>
+            <h1 className="text-xl font-bold text-green-800">{t.nav.titulo}</h1>
           </div>
           
           {/* Menú escritorio */}
