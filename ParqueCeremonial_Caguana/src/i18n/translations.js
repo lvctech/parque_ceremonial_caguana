@@ -1,6 +1,72 @@
 // src/i18n/translations.js
 export const translations = {
   es: {
+    plazas: {
+      title: 'Plazas Indígenas',
+      description: 'Las plazas ceremoniales del Parque Indígena de Caguana son espacios sagrados donde los taínos realizaban sus ceremonias y rituales. Cada plaza tiene características únicas y significado cultural.',
+      items: [
+        {
+          title: 'Plaza Central',
+          description: 'La plaza principal del complejo, donde se realizaban las ceremonias más importantes. Contiene varios petroglifos y está rodeada de monolitos de piedra.',
+          imageUrl: '',
+          altText: 'Vista de la Plaza Central del Parque Ceremonial Indígena Caguana'
+        },
+        {
+          title: 'Plaza de los Caciques',
+          description: 'Espacio dedicado a los líderes taínos, donde se celebraban consejos y reuniones importantes. Presenta una forma rectangular con piedras ceremoniales.',
+          imageUrl: '',
+          altText: 'Plaza de los Caciques con piedras ceremoniales'
+        },
+        {
+          title: 'Plaza del Sol',
+          description: 'Orientada para capturar los rayos del sol durante los solsticios. Los taínos utilizaban esta plaza para ceremonias relacionadas con los ciclos solares y las estaciones.',
+          imageUrl: '',
+          altText: 'Plaza del Sol con orientación astronómica'
+        },
+        {
+          title: 'Plaza de la Luna',
+          description: 'Dedicada a rituales nocturnos y celebraciones relacionadas con los ciclos lunares. Contiene símbolos que representan las fases de la luna.',
+          imageUrl: '',
+          altText: 'Plaza de la Luna con símbolos lunares'
+        },
+        {
+          title: 'Plaza de la Fertilidad',
+          description: 'Espacio donde se realizaban ceremonias para promover buenas cosechas y fertilidad. Contiene petroglifos con símbolos de fertilidad y abundancia.',
+          imageUrl: '',
+          altText: 'Plaza de la Fertilidad con petroglifos'
+        },
+        {
+          title: 'Plaza de los Ancestros',
+          description: 'Dedicada a honrar a los antepasados y mantener conexión con el mundo espiritual. Presenta monolitos que representan figuras ancestrales.',
+          imageUrl: '',
+          altText: 'Plaza de los Ancestros con monolitos ceremoniales'
+        },
+        {
+          title: 'Plaza del Agua',
+          description: 'Cercana a fuentes de agua, esta plaza estaba dedicada a ceremonias relacionadas con la lluvia y los cuerpos de agua tan importantes para la cultura taína.',
+          imageUrl: '',
+          altText: 'Plaza del Agua con elementos ceremoniales'
+        },
+        {
+          title: 'Plaza de los Petroglifos',
+          description: 'Contiene la mayor concentración de arte rupestre del parque, con representaciones de deidades, figuras humanas y símbolos cosmológicos.',
+          imageUrl: '',
+          altText: 'Plaza de los Petroglifos con arte rupestre taíno'
+        },
+        {
+          title: 'Plaza Ceremonial Menor',
+          description: 'Espacio más íntimo donde probablemente se realizaban rituales para grupos más pequeños o ceremonias de iniciación.',
+          imageUrl: '',
+          altText: 'Plaza Ceremonial Menor del complejo arqueológico'
+        },
+        {
+          title: 'Plaza de las Estrellas',
+          description: 'Orientada hacia puntos astronómicos específicos, esta plaza muestra el avanzado conocimiento que los taínos tenían sobre los astros y constelaciones.',
+          imageUrl: '',
+          altText: 'Plaza de las Estrellas con orientación astronómica'
+        }
+      ]
+    },
     nav: {
       titulo: 'Parque Ceremonial Indígena Caguana',
       plazas: 'Plazas Indígenas',
@@ -51,6 +117,72 @@ export const translations = {
     }
   },
   en: {
+    plazas: {
+      title: 'Indigenous Plazas',
+      description: 'The ceremonial plazas of the Caguana Indigenous Park are sacred spaces where the Taínos performed their ceremonies and rituals. Each plaza has unique characteristics and cultural significance.',
+      items: [
+        {
+          title: 'Central Plaza',
+          description: 'The main plaza of the complex, where the most important ceremonies were held. It contains several petroglyphs and is surrounded by stone monoliths.',
+          imageUrl: '',
+          altText: 'View of the Central Plaza at Caguana Indigenous Ceremonial Park'
+        },
+        {
+          title: 'Caciques Plaza',
+          description: 'Space dedicated to Taíno leaders, where councils and important meetings were held. It has a rectangular shape with ceremonial stones.',
+          imageUrl: '',
+          altText: 'Caciques Plaza with ceremonial stones'
+        },
+        {
+          title: 'Sun Plaza',
+          description: 'Oriented to capture the sun\'s rays during solstices. The Taínos used this plaza for ceremonies related to solar cycles and seasons.',
+          imageUrl: '',
+          altText: 'Sun Plaza with astronomical orientation'
+        },
+        {
+          title: 'Moon Plaza',
+          description: 'Dedicated to nocturnal rituals and celebrations related to lunar cycles. It contains symbols representing the phases of the moon.',
+          imageUrl: '',
+          altText: 'Moon Plaza with lunar symbols'
+        },
+        {
+          title: 'Fertility Plaza',
+          description: 'Space where ceremonies were held to promote good harvests and fertility. It contains petroglyphs with symbols of fertility and abundance.',
+          imageUrl: '',
+          altText: 'Fertility Plaza with petroglyphs'
+        },
+        {
+          title: 'Ancestors Plaza',
+          description: 'Dedicated to honoring ancestors and maintaining connection with the spiritual world. It features monoliths representing ancestral figures.',
+          imageUrl: '',
+          altText: 'Ancestors Plaza with ceremonial monoliths'
+        },
+        {
+          title: 'Water Plaza',
+          description: 'Close to water sources, this plaza was dedicated to ceremonies related to rain and bodies of water so important to Taíno culture.',
+          imageUrl: '',
+          altText: 'Water Plaza with ceremonial elements'
+        },
+        {
+          title: 'Petroglyphs Plaza',
+          description: 'Contains the highest concentration of rock art in the park, with representations of deities, human figures, and cosmological symbols.',
+          imageUrl: '',
+          altText: 'Petroglyphs Plaza with Taíno rock art'
+        },
+        {
+          title: 'Minor Ceremonial Plaza',
+          description: 'More intimate space where rituals were probably performed for smaller groups or initiation ceremonies.',
+          imageUrl: '',
+          altText: 'Minor Ceremonial Plaza of the archaeological complex'
+        },
+        {
+          title: 'Stars Plaza',
+          description: 'Oriented towards specific astronomical points, this plaza shows the advanced knowledge that the Taínos had about stars and constellations.',
+          imageUrl: '',
+          altText: 'Stars Plaza with astronomical orientation'
+        }
+      ]
+    },
     nav: {
       titulo: 'Caguana Indigenous Ceremonial Park',
       plazas: 'Indigenous Plazas',
