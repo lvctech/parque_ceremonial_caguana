@@ -9,21 +9,24 @@ export default function Navbar({ language, setLanguage, translations }) {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
-          <div className="flex items-center">
-            <h1 className="text-xl font-bold text-green-800">{t.nav.titulo}</h1>
+        <div className="flex items-center h-16">
+          {/* Logo/Título */}
+          <div className="flex items-center flex-shrink-0 mr-8">
+            <a href="#" className="text-xl font-bold text-green-800">
+              {t.nav.titulo}
+            </a>
           </div>
           
-          {/* Menú escritorio */}
-          <nav className="hidden md:flex space-x-6">
+          {/* Menú escritorio centrado */}
+          <nav className="hidden md:flex flex-1 justify-center space-x-6">
             <a href="#plazas" className="text-gray-700 hover:text-green-600">{t.nav.plazas}</a>
             <a href="#petroglifos" className="text-gray-700 hover:text-green-600">{t.nav.petroglifos}</a>
             <a href="#flora" className="text-gray-700 hover:text-green-600">{t.nav.flora}</a>
             <a href="#fauna" className="text-gray-700 hover:text-green-600">{t.nav.fauna}</a>
-            <a href="#visita" className="text-gray-700 hover:text-green-600">{t.nav.visitanos}</a>
           </nav>
           
-          <div className="flex items-center">
+          {/* Botones a la derecha */}
+          <div className="flex items-center flex-shrink-0 ml-8">
             {/* Botón de cambio de idioma */}
             <button 
               onClick={() => setLanguage(language === 'es' ? 'en' : 'es')}
@@ -52,7 +55,7 @@ export default function Navbar({ language, setLanguage, translations }) {
             <a href="#petroglifos" className="text-gray-700 hover:text-green-600 py-2">{t.nav.petroglifos}</a>
             <a href="#flora" className="text-gray-700 hover:text-green-600 py-2">{t.nav.flora}</a>
             <a href="#fauna" className="text-gray-700 hover:text-green-600 py-2">{t.nav.fauna}</a>
-            <a href="#visita" className="text-gray-700 hover:text-green-600 py-2">{t.nav.visitanos}</a>
+            {/* <a href="#visita" className="text-gray-700 hover:text-green-600 py-2">{t.nav.visitanos}</a> */}
           </nav>
         </div>
       )}

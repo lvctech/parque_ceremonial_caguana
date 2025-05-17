@@ -6,63 +6,63 @@ export const translations = {
       description: 'Las plazas ceremoniales del Parque Indígena de Caguana son espacios sagrados donde los taínos realizaban sus ceremonias y rituales. Cada plaza tiene características únicas y significado cultural.',
       items: [
         {
-          title: 'Plaza Central',
+          title: 'Plaza Central A',
           description: 'La plaza principal del complejo, donde se realizaban las ceremonias más importantes. Contiene varios petroglifos y está rodeada de monolitos de piedra.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/plaza_a.jpg',
           altText: 'Vista de la Plaza Central del Parque Ceremonial Indígena Caguana'
         },
         {
-          title: 'Plaza de los Caciques',
+          title: 'Batey B',
           description: 'Espacio dedicado a los líderes taínos, donde se celebraban consejos y reuniones importantes. Presenta una forma rectangular con piedras ceremoniales.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_b.jpg',
           altText: 'Plaza de los Caciques con piedras ceremoniales'
         },
         {
-          title: 'Plaza del Sol',
+          title: 'Batey C',
           description: 'Orientada para capturar los rayos del sol durante los solsticios. Los taínos utilizaban esta plaza para ceremonias relacionadas con los ciclos solares y las estaciones.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_c.jpg',
           altText: 'Plaza del Sol con orientación astronómica'
         },
         {
-          title: 'Plaza de la Luna',
+          title: 'Batey E',
           description: 'Dedicada a rituales nocturnos y celebraciones relacionadas con los ciclos lunares. Contiene símbolos que representan las fases de la luna.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_e.jpg',
           altText: 'Plaza de la Luna con símbolos lunares'
         },
         {
-          title: 'Plaza de la Fertilidad',
+          title: 'Batey H',
           description: 'Espacio donde se realizaban ceremonias para promover buenas cosechas y fertilidad. Contiene petroglifos con símbolos de fertilidad y abundancia.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_h.jpg',
           altText: 'Plaza de la Fertilidad con petroglifos'
         },
         {
-          title: 'Plaza de los Ancestros',
+          title: 'Batey I',
           description: 'Dedicada a honrar a los antepasados y mantener conexión con el mundo espiritual. Presenta monolitos que representan figuras ancestrales.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_i.jpg',
           altText: 'Plaza de los Ancestros con monolitos ceremoniales'
         },
         {
-          title: 'Plaza del Agua',
+          title: 'Batey K',
           description: 'Cercana a fuentes de agua, esta plaza estaba dedicada a ceremonias relacionadas con la lluvia y los cuerpos de agua tan importantes para la cultura taína.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_k.jpg',
           altText: 'Plaza del Agua con elementos ceremoniales'
         },
         {
-          title: 'Plaza de los Petroglifos',
+          title: 'Batey L',
           description: 'Contiene la mayor concentración de arte rupestre del parque, con representaciones de deidades, figuras humanas y símbolos cosmológicos.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_l.jpg',
           altText: 'Plaza de los Petroglifos con arte rupestre taíno'
         },
         {
-          title: 'Plaza Ceremonial Menor',
+          title: 'Batey M',
           description: 'Espacio más íntimo donde probablemente se realizaban rituales para grupos más pequeños o ceremonias de iniciación.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_m.jpg',
           altText: 'Plaza Ceremonial Menor del complejo arqueológico'
         },
         {
-          title: 'Plaza de las Estrellas',
+          title: 'Batey N',
           description: 'Orientada hacia puntos astronómicos específicos, esta plaza muestra el avanzado conocimiento que los taínos tenían sobre los astros y constelaciones.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_n.jpg',
           altText: 'Plaza de las Estrellas con orientación astronómica'
         }
       ]
@@ -122,63 +122,63 @@ export const translations = {
       description: 'The ceremonial plazas of the Caguana Indigenous Park are sacred spaces where the Taínos performed their ceremonies and rituals. Each plaza has unique characteristics and cultural significance.',
       items: [
         {
-          title: 'Central Plaza',
+          title: 'Central Plaza A',
           description: 'The main plaza of the complex, where the most important ceremonies were held. It contains several petroglyphs and is surrounded by stone monoliths.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/plaza_a.jpg',
           altText: 'View of the Central Plaza at Caguana Indigenous Ceremonial Park'
         },
         {
-          title: 'Caciques Plaza',
+          title: 'Batey B',
           description: 'Space dedicated to Taíno leaders, where councils and important meetings were held. It has a rectangular shape with ceremonial stones.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_b.jpg',
           altText: 'Caciques Plaza with ceremonial stones'
         },
         {
-          title: 'Sun Plaza',
+          title: 'Batey C',
           description: 'Oriented to capture the sun\'s rays during solstices. The Taínos used this plaza for ceremonies related to solar cycles and seasons.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_c.jpg',
           altText: 'Sun Plaza with astronomical orientation'
         },
         {
-          title: 'Moon Plaza',
+          title: 'Batey E',
           description: 'Dedicated to nocturnal rituals and celebrations related to lunar cycles. It contains symbols representing the phases of the moon.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_e.jpg',
           altText: 'Moon Plaza with lunar symbols'
         },
         {
-          title: 'Fertility Plaza',
+          title: 'Batey H',
           description: 'Space where ceremonies were held to promote good harvests and fertility. It contains petroglyphs with symbols of fertility and abundance.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_h.jpg',
           altText: 'Fertility Plaza with petroglyphs'
         },
         {
-          title: 'Ancestors Plaza',
+          title: 'Batey I',
           description: 'Dedicated to honoring ancestors and maintaining connection with the spiritual world. It features monoliths representing ancestral figures.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_i.jpg',
           altText: 'Ancestors Plaza with ceremonial monoliths'
         },
         {
-          title: 'Water Plaza',
+          title: 'Batey K',
           description: 'Close to water sources, this plaza was dedicated to ceremonies related to rain and bodies of water so important to Taíno culture.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_k.jpg',
           altText: 'Water Plaza with ceremonial elements'
         },
         {
-          title: 'Petroglyphs Plaza',
+          title: 'Batey L',
           description: 'Contains the highest concentration of rock art in the park, with representations of deities, human figures, and cosmological symbols.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_l.jpg',
           altText: 'Petroglyphs Plaza with Taíno rock art'
         },
         {
-          title: 'Minor Ceremonial Plaza',
+          title: 'Batey M',
           description: 'More intimate space where rituals were probably performed for smaller groups or initiation ceremonies.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_m.jpg',
           altText: 'Minor Ceremonial Plaza of the archaeological complex'
         },
         {
-          title: 'Stars Plaza',
+          title: 'Batey N',
           description: 'Oriented towards specific astronomical points, this plaza shows the advanced knowledge that the Taínos had about stars and constellations.',
-          imageUrl: '',
+          imageUrl: '/src/assets/images/batey_n.jpg',
           altText: 'Stars Plaza with astronomical orientation'
         }
       ]
