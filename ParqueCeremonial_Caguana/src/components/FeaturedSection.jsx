@@ -10,7 +10,12 @@ export default function FeaturedSection({ language, translations }) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Plazas Indígenas */}
           <div className="bg-stone-100 rounded-lg overflow-hidden shadow-md">
-            <div className="h-48 bg-gray-300"></div>
+            {/* Imagen para la carta de plazas ceremoniales */}
+            <img
+              src="/src/assets/images/plazas_ceremoniales.jpg"
+              alt="Plazas Ceremoniales"
+              className="h-48 w-full object-cover"
+            />
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2 text-gray-800">{t.featured.plazaTitle}</h3>
               <p className="text-gray-600">{t.featured.plazaDesc}</p>
@@ -20,7 +25,12 @@ export default function FeaturedSection({ language, translations }) {
           
           {/* Petroglifos */}
           <div className="bg-stone-100 rounded-lg overflow-hidden shadow-md">
-            <div className="h-48 bg-gray-300"></div>
+            {/* Imagen para la carta de petroglifos únicos */}
+            <img
+              src="/src/assets/images/petroglifos.jpg"
+              alt="Petroglifos Únicos"
+              className="h-48 w-full object-cover"
+            />
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2 text-gray-800">{t.featured.petroTitle}</h3>
               <p className="text-gray-600">{t.featured.petroDesc}</p>
@@ -30,7 +40,12 @@ export default function FeaturedSection({ language, translations }) {
           
           {/* Flora */}
           <div className="bg-stone-100 rounded-lg overflow-hidden shadow-md">
-            <div className="h-48 bg-gray-300"></div>
+            {/* Imagen para la carta de flora nativa y exótica */}
+            <img
+              src="/src/assets/images/amapola.jpg"
+              alt="Flora Nativa y Exótica"
+              className="h-48 w-full object-cover"
+            />
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2 text-gray-800">{t.featured.floraTitle}</h3>
               <p className="text-gray-600">{t.featured.floraDesc}</p>

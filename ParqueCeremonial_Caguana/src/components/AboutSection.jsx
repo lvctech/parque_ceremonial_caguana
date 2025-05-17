@@ -3,7 +3,7 @@ export default function AboutSection({ language, translations }) {
   const t = translations[language];
 
   return (
-    <section className="py-16 bg-white">
+    <section id="about" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="w-full md:w-1/2">

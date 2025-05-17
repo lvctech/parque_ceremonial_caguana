@@ -32,3 +32,49 @@ code {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
 }
+
+@keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in-down {
+  animation: fade-in-down 0.8s ease forwards;
+}
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease forwards;
+}
+
+/* Animación pulse para el botón Explorar */
+@keyframes pulse-on-click {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(34,197,94,0.7);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0 0 0 10px rgba(34,197,94,0.2);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(34,197,94,0.0);
+  }
+}
+.pulse-on-click {
+  animation: pulse-on-click 0.4s;
+}
