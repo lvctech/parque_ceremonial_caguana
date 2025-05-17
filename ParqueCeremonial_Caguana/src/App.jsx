@@ -53,7 +53,7 @@ export default function App() {
       case 'fauna':
         return <FaunaPage language={language} translations={translations} />;
       default:
-        return <HomePage language={language} translations={translations} />;
+        return <HomePage language={language} setLanguage={setLanguage} translations={translations} />;
     }
   };
 

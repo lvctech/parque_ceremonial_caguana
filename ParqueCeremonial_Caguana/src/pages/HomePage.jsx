@@ -5,14 +5,14 @@ import VisitSection from '../components/VisitSection.jsx';
 import AboutSection from '../components/AboutSection.jsx';
 import QrCodeSection from '../components/QRCodeSection.jsx';
 
-export default function HomePage({ language, translations }) {
+export default function HomePage({ language, setLanguage, translations }) {
   return (
     <>
-      <HeroSection language={language} translations={translations} />
-      <FeaturedSection language={language} translations={translations} />
-      <VisitSection language={language} translations={translations} />
-      <AboutSection language={language} translations={translations} />
-      <QrCodeSection language={language} translations={translations} />
+      <HeroSection language={language} setLanguage={setLanguage} translations={translations} />
+      <FeaturedSection language={language} setLanguage={setLanguage} translations={translations} />
+      <VisitSection language={language} setLanguage={setLanguage} translations={translations} />
+      <AboutSection language={language} setLanguage={setLanguage} translations={translations} />
+      <QrCodeSection language={language} setLanguage={setLanguage} translations={translations} />
     </>
   );
 }
