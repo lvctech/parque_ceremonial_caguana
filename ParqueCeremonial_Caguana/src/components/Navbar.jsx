@@ -12,8 +12,14 @@ export default function Navbar({ language, setLanguage, translations }) {
         <div className="flex items-center h-16">
           {/* Logo/Título */}
           <div className="flex items-center flex-shrink-0 mr-8">
-            <a href="#" className="text-xl font-bold text-green-800">
-              {t.nav.titulo}
+            <a href="#" onClick={() => window.location.hash = ''} className="flex items-center group">
+              <img
+                src="/src/assets/icons/mujer_caguana_logo.png"
+                alt="Logo Mujer Caguana"
+                className="h-10 w-10 mr-3 transition-transform group-hover:scale-105"
+                style={{ objectFit: 'contain' }}
+              />
+              <span className="text-xl font-bold text-green-800">{t.nav.titulo}</span>
             </a>
           </div>
           

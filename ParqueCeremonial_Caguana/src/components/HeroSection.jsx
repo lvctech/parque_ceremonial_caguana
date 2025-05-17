@@ -31,9 +31,12 @@ export default function HeroSection({
         
         {showButtons && (
           <div className="flex flex-wrap justify-center gap-4">
-            <button className="bg-green-700 hover:bg-green-800 text-white font-bold py-3 px-6 rounded-lg">
+            <a
+              href="#featured"
+              className="bg-green-700 hover:bg-green-800 text-white font-bold py-3 px-6 rounded-lg"
+            >
               {t.hero.explore}
-            </button>
+            </a>
             <button className="border-2 border-white text-white font-bold py-3 px-6 rounded-lg hover:bg-white hover:text-green-800">
               {t.hero.learnMore}
             </button>

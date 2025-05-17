@@ -3,7 +3,7 @@ export default function FeaturedSection({ language, translations }) {
   const t = translations[language];
 
   return (
-    <section className="py-16 bg-white">
+    <section id="featured" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">{t.featured.title}</h2>
         

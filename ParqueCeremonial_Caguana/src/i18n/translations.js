@@ -85,11 +85,11 @@ export const translations = {
     featured: {
       title: 'Destacados',
       plazaTitle: 'Plazas Ceremoniales',
-      plazaDesc: 'Conoce los espacios donde los taínos realizaban sus ceremonias',
+      plazaDesc: 'Conoce los espacios donde los taínos realizaban sus ceremonias y juegos.',
       petroTitle: 'Petroglifos Únicos',
-      petroDesc: 'Explora el arte rupestre que cuenta historias ancestrales',
-      floraTitle: 'Flora Nativa',
-      floraDesc: 'Descubre la vegetación original de la isla'
+      petroDesc: 'Explora el arte rupestre que cuenta historias ancestrales.',
+      floraTitle: 'Flora Nativa y Exótica',
+      floraDesc: 'Descubre la vegetación que provee el parque y su importancia cultural.'
     },
     visit: {
       title: 'Planifica tu visita',
@@ -201,11 +201,11 @@ export const translations = {
     featured: {
       title: 'Featured',
       plazaTitle: 'Ceremonial Plazas',
-      plazaDesc: 'Learn about the spaces where Taínos performed their ceremonies',
+      plazaDesc: 'Learn about the spaces where Taínos performed their ceremonies and games.',
       petroTitle: 'Unique Petroglyphs',
-      petroDesc: 'Explore the rock art that tells ancestral stories',
-      floraTitle: 'Native Flora',
-      floraDesc: 'Discover the island\'s original vegetation'
+      petroDesc: 'Explore the rock art that tells ancestral stories.',
+      floraTitle: 'Native and Exotic Flora',
+      floraDesc: 'Discover the island\'s original vegetation and its cultural importance.'
     },
     visit: {
       title: 'Plan your visit',
