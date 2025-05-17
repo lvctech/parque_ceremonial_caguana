@@ -55,6 +55,7 @@ export default function FaunaPage({ language, translations }) {
                   altText={animal.altText}
                   language={language}
                   translations={translations}
+                  imagePosition="bottom" // <--- Añade esta línea
                 />
               );
             })}
