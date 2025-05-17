@@ -76,12 +76,12 @@ export default function FeaturedSection({ language, translations }) {
       <section id="mapa-caguana" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8 text-green-800">
-            Mapa del Parque Indígena de Caguana
+            {t.featured.mapTitle} {/* Usa la traducción aquí */}
           </h2>
           <div className="flex justify-center">
             <img
               src="/src/assets/images/mapa_caguana.png"
-              alt="Mapa del Parque Indígena de Caguana"
+              alt={t.featured.mapTitle} // Usa la traducción aquí
               className="rounded-lg shadow-lg max-w-full h-auto"
               style={{ maxHeight: '600px' }}
             />

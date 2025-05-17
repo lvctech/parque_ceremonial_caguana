@@ -209,7 +209,8 @@ export const translations = {
       petroTitle: 'Petroglifos Únicos',
       petroDesc: 'Explora el arte rupestre que cuenta historias ancestrales.',
       floraTitle: 'Flora Nativa y Exótica',
-      floraDesc: 'Descubre la vegetación que provee el parque y su importancia cultural.'
+      floraDesc: 'Descubre la vegetación que provee el parque y su importancia cultural.',
+      mapTitle: 'Mapa del Parque Indígena de Caguana' // Añade esta línea
     },
     visit: {
       title: 'Planifica tu visita',
@@ -462,364 +463,91 @@ export const translations = {
       ]
     },
     nav: {
-      titulo: 'Parque Indígena Caguana',
-      plazas: 'Plazas Indígenas',
-      petroglifos: 'Petroglifos',
+      titulo: 'Caguana Indigenous Park',
+      plazas: 'Indigenous Plazas',
+      petroglifos: 'Petroglyphs',
       flora: 'Flora',
       fauna: 'Fauna',
-      visitanos: 'Visítanos',
-      info: 'Información'
+      visitanos: 'Visit us',
+      info: 'Information'
     },
     hero: {
-      title: 'Parque Ceremonial Indígena Caguana',
-      subtitle: 'Descubre el legado taíno de Puerto Rico',
-      explore: 'Explorar',
-      learnMore: 'Conoce más'
+      title: 'Caguana Indigenous Ceremonial Park',
+      subtitle: 'Discover the Taíno legacy of Puerto Rico',
+      explore: 'Explore',
+      learnMore: 'Learn More'
     },
     featured: {
-      title: 'Destacados',
-      plazaTitle: 'Plazas Ceremoniales',
-      plazaDesc: 'Conoce los espacios donde los taínos realizaban sus ceremonias y juegos.',
-      petroTitle: 'Petroglifos Únicos',
-      petroDesc: 'Explora el arte rupestre que cuenta historias ancestrales.',
-      floraTitle: 'Flora Nativa y Exótica',
-      floraDesc: 'Descubre la vegetación que provee el parque y su importancia cultural.'
+      title: 'Highlights',
+      plazaTitle: 'Ceremonial Plazas',
+      plazaDesc: 'Discover the spaces where the Taínos performed their ceremonies and games.',
+      petroTitle: 'Unique Petroglyphs',
+      petroDesc: 'Explore the rock art that tells ancestral stories.',
+      floraTitle: 'Native and Exotic Flora',
+      floraDesc: 'Discover the vegetation that provides the park and its cultural importance.',
+      mapTitle: 'Map of the Caguana Indigenous Park' // Añade esta línea
     },
     visit: {
-      title: 'Planifica tu visita',
-      location: 'Ubicación: Utuado, Puerto Rico',
-      hours: 'Horario: Abierto todos los días (lunes a domingo) de 9:00 a.m. a 4:00 p.m.',
-      phone: 'Teléfono para información o reservaciones: 787-894-7325',
+      title: 'Plan your visit',
+      location: 'Location: Utuado, Puerto Rico',
+      hours: 'Hours: Open every day (Monday to Sunday) from 9:00 a.m. to 4:00 p.m.',
+      phone: 'Phone for information or reservations: 787-894-7325',
       admission: {
-        title: 'Tarifas de Entrada:',
-        adults: 'Adultos: $5',
-        children: 'Niños (6 a 13 años): $3',
-        cashOnly: 'Solo se acepta efectivo.'
+        title: 'Entry fees:',
+        adults: 'Adults: $5',
+        children: 'Children (6 to 13 years): $3',
+        cashOnly: 'Cash only is accepted.'
       },
       facilities: {
-        title: 'Instalaciones:',
-        museum: 'Entrada incluye acceso al museo y al área arqueológica.',
-        accessibility: 'El museo es accesible en silla de ruedas, pero las plazas ceremoniales no.',
-        restrooms: 'Hay baños disponibles en el museo y cerca del estacionamiento.',
-        duration: 'Se recomienda dedicar aproximadamente 45 minutos para recorrer todo el lugar.'
+        title: 'Facilities:',
+        museum: 'Entrance includes access to the museum and the archaeological area.',
+        accessibility: 'The museum is wheelchair accessible, but the ceremonial plazas are not.',
+        restrooms: 'There are bathrooms available in the museum and near the parking lot.',
+        duration: 'It is recommended to dedicate approximately 45 minutes to tour the entire site.'
       },
       importantNotes: {
-        title: 'Notas Importantes:',
-        weatherRestrictions: 'El acceso a las canchas de juego puede estar restringido en días lluviosos por seguridad.',
-        parking: 'Estacionamiento gratuito disponible.'
+        title: 'Important notes:',
+        weatherRestrictions: 'Access to the playing fields may be restricted on rainy days for safety.',
+        parking: 'Free parking available.'
       },
       directions: {
-        title: 'Cómo llegar:',
-        fromArecibo: 'Desde la autopista Ruta 22 (Arecibo), toma la Ruta 10 sur hacia Utuado.',
-        turnRight: 'Gira a la derecha en la Carretera 111, el parque está ubicado en el KM 48.6.',
-        entrance: 'El parque tiene una entrada visible con portón, no te lo puedes perder.',
-        roadCondition: 'La carretera 111 es estrecha y sinuosa, se recomienda manejar con precaución y disfrutar del paisaje montañoso.'
+        title: 'How to get there:',
+        fromArecibo: 'From Highway Route 22 (Arecibo), take Route 10 south towards Utuado.',
+        turnRight: 'Turn right onto Highway 111, the park is located at KM 48.6.',
+        entrance: 'The park has a visible entrance with a gate, you can\'t miss it.',
+        roadCondition: 'Highway 111 is narrow and winding, it is recommended to drive carefully and enjoy the mountainous landscape.'
       },
       recommendedClothing: {
-        title: 'Vestimenta Recomendada:',
-        intro: 'Para disfrutar cómodamente de tu visita al parque, se recomienda usar:',
+        title: 'Recommended Clothing:',
+        intro: 'To comfortably enjoy your visit to the park, it is recommended to use:',
         items: [
-          'Ropa cómoda y ligera',
-          'Pantalones largos',
-          'Zapatos cerrados',
-          'Medias largas',
-          'Gorra o sombrero',
-          'Gafas de sol'
+          'Comfortable and light clothing',
+          'Long pants',
+          'Closed shoes',
+          'Long socks',
+          'Cap or hat',
+          'Sunglasses'
         ],
-        note: 'Estas sugerencias te ayudarán a estar más protegido del sol, los insectos y las áreas irregulares del terreno.'
+        note: 'These suggestions will help you be more protected from the sun, insects and irregular areas of the terrain.'
       },
-      bookTour: 'Reservar visita guiada',
-      address: 'Dirección: Carretera PR-111, KM 48.6, Utuado, Puerto Rico'
+      bookTour: 'Book a guided tour',
+      address: 'Address: PR-111 Road, KM 48.6, Utuado, Puerto Rico'
     },
     about: {
-      title: 'Sobre el parque',
-      description: 'El Parque Ceremonial Indígena de Caguana, ubicado en Utuado, es uno de los sitios arqueológicos más importantes de Puerto Rico y el Caribe. Contiene evidencia de los asentamientos taínos que datan del 1270 d.C.'
+      title: 'About the park',
+      description: 'The Caguana Indigenous Ceremonial Park, located in Utuado, is one of the most important archaeological sites in Puerto Rico and the Caribbean. It contains evidence of Taíno settlements dating from 1270 AD.'
     },
     qrcode: {
-      title: 'Descubre mediante códigos QR',
-      description: 'Explora el parque escaneando los códigos QR ubicados en cada plaza, petroglifo, árbol y elemento significativo. Accede a contenido exclusivo como audios, videos e información detallada.',
-      howItWorks: 'Cómo funciona'
+      title: 'Discover through QR codes',
+      description: 'Explore the park by scanning the QR codes located in each square, petroglyph, tree and significant element. Access exclusive content such as audios, videos and detailed information.',
+      howItWorks: 'How it works'
     },
     footer: {
-      description: 'Un tesoro histórico y cultural de Puerto Rico',
-      quickLinks: 'Enlaces rápidos',
-      contact: 'Contáctanos',
+      description: 'A historical and cultural treasure of Puerto Rico',
+      quickLinks: 'Quick links',
+      contact: 'Contact us',
       email: 'info@parquecaguanas.pr',
-      rights: 'Todos los derechos reservados.'
-    }
-  },
-  en: {
-    fauna: {
-      title: 'Fauna',
-      description: 'The Caguana Ceremonial Park is home to a diverse native fauna, including birds, reptiles, and amphibians that inhabit its wooded and humid areas.',
-      items: [
-        {
-          title: 'Puerto Rican Screech Owl (Megascops nudipes)',
-          description: 'Bird endemic to Puerto Rico. This small owl inhabits the forests of the park and is recognizable by its distinctive call during the night. It feeds mainly on insects and small rodents.',
-          imageUrl: '/src/assets/images/mucaro.jpg', // <-- corregido
-          altText: 'Puerto Rican Screech Owl, endemic bird of Puerto Rico'
-        },
-        {
-          title: 'Black-whiskered Vireo (Vireo altiloquus)',
-          description: 'Migratory bird that visits the island during the spring and summer months. Its melodious song is characteristic of the wooded areas of the park. It feeds mainly on insects and small fruits.',
-          imageUrl: '/src/assets/images/julian_chivi.jpg', // <-- corregido
-          altText: 'Black-whiskered Vireo, migratory bird of Puerto Rico'
-        },
-        {
-          title: 'Crested Anole (Anolis cristatellus)',
-          description: 'Reptile common throughout Puerto Rico. This small green or brown lizard is known for its ability to change color according to its environment. It can be observed on tree trunks and rocks in the park.',
-          imageUrl: '/src/assets/images/lagarto_anolis.jpg', // <-- corregido
-          altText: 'Crested Anole in its natural habitat'
-        },
-        {
-          title: 'Cane Toad (Rhinella marina)',
-          description: 'Amphibian introduced to Puerto Rico. This large toad is nocturnal and is frequently found near humid areas of the park. It produces a toxin that protects it from predators.',
-          imageUrl: '/src/assets/images/sapo_cana.jpg', // <-- corregido
-          altText: 'Cane Toad at the Caguana Ceremonial Park'
-        }
-      ]
-    },
-    flora: {
-      title: 'Flora',
-      description: 'The Caguana Ceremonial Park is home to a wide variety of tropical flora, including native and exotic species that are part of the ecosystem of Puerto Rico\'s mountainous region.',
-      items: [
-        {
-          title: 'Ceiba (Ceiba pentandra)',
-          description: 'Sacred tree for the Taínos, symbolizing the connection between the earthly and spiritual worlds. It can reach up to 70 meters in height.',
-          details: 'The Ceiba is considered the most emblematic tree of Puerto Rico and is revered for its size and longevity.',
-          imageUrl: '/src/assets/images/ceiba.jpg',
-          altText: 'Ceiba pentandra, sacred and monumental tree of Puerto Rico'
-        },
-        {
-          title: 'Mango (Mangifera indica)',
-          description: 'Fruit tree native to South Asia, highly valued for its sweet and juicy fruits.',
-          details: 'Mango is widely cultivated in Puerto Rico and its fruits are eaten fresh or in juices.',
-          imageUrl: '/src/assets/images/mango.jpg',
-          altText: 'Mango tree with ripe fruits'
-        },
-        {
-          title: 'Pink Acacia (Cassia javanica)',
-          description: 'Ornamental tree known for its showy pink flowers and traditional medicinal use.',
-          details: 'Pink acacia beautifies rural roads and is valued for its shade and abundant flowering.',
-          imageUrl: '/src/assets/images/acasia_rosada.jpg',
-          altText: 'Pink acacia flowers in full bloom'
-        },
-        {
-          title: 'Annatto (Bixa orellana)',
-          description: 'Shrub whose seeds are used as a natural dye and typical seasoning.',
-          details: 'Annatto is essential in Puerto Rican cuisine and was also used for indigenous body paint.',
-          imageUrl: '/src/assets/images/achiote.jpg',
-          altText: 'Annatto fruit and seeds, natural dye'
-        },
-        {
-          title: 'Hibiscus (Hibiscus rosa-sinensis)',
-          description: 'Ornamental shrub with large, colorful flowers, a symbol of tropical beauty.',
-          details: 'Hibiscus is widely used in gardens and plazas for its continuous flowering and vibrant colors.',
-          imageUrl: '/src/assets/images/amapola.jpg',
-          altText: 'Red hibiscus flower in a tropical garden'
-        },
-        {
-          title: 'Plantain (Musa paradisiaca)',
-          description: 'Large herbaceous plant, fundamental in the Caribbean diet for its fruits.',
-          details: 'Plantain is the base of many typical dishes and its cultivation is essential for the local agricultural economy.',
-          imageUrl: '/src/assets/images/platano.jpg',
-          altText: 'Plantain plant with bunches of green fruits'
-        }
-      ]
-    },
-    petroglifos: {
-      title: 'Petroglyphs',
-      description: 'The petroglyphs carved in stone are sacred symbols from the Taíno past, representing deities, animals, and aspects of daily life.',
-      items: [
-        {
-          title: 'Woman of Caguana/ Atabéy',
-          description: 'This petroglyph represents Atabey, the mother goddess of fertility and water in Taíno culture. She is a symbol of life, creation, and protection.',
-          imageUrl: '/src/assets/images/mujer_caguana_abatey.jpg',
-          altText: 'Petroglyph representing Atabey, Taíno mother goddess'
-        },
-        {
-          title: 'Bird Petroglyph',
-          description: 'Bird figure symbolizing the connection between the earthly and spiritual worlds. Birds were considered messengers of the gods by the Taínos.',
-          imageUrl: '/src/assets/images/ave_petroglifo.jpg',
-          altText: 'Bird petroglyph, Taíno spiritual messenger'
-        },
-        {
-          title: 'Moon Goddess',
-          description: 'Representation of the Taíno moon goddess, associated with nature’s cycles and fertility. The moon guided agriculture and rituals.',
-          imageUrl: '/src/assets/images/diosa_luna.jpg',
-          altText: 'Petroglyph of the Taíno moon goddess'
-        },
-        {
-          title: 'Spiral/ Water Petroglyph',
-          description: 'The spiral symbolizes water, continuity, and the cycle of life. It was a common motif in rituals giving thanks for rain.',
-          imageUrl: '/src/assets/images/petro_espiral.jpg',
-          altText: 'Spiral petroglyph, symbol of water and life'
-        },
-        {
-          title: 'Eye Petroglyph',
-          description: 'This petroglyph represents the vigilance and wisdom of the ancestors. The eyes symbolize spiritual protection over the community.',
-          imageUrl: '/src/assets/images/petroglifo_ojos.jpg',
-          altText: 'Eye petroglyph, symbol of ancestral protection'
-        },
-        {
-          title: 'Fertility Petroglyph',
-          description: 'Petroglyph associated with rituals for the fertility of the land and abundance in crops. It reflects the importance of nature for the Taínos.',
-          imageUrl: '/src/assets/images/fertilidad.jpg',
-          altText: 'Fertility petroglyph, symbol of agricultural abundance'
-        }
-      ]
-    },
-    plazas: {
-      title: 'Indigenous Plazas',
-      description: 'The ceremonial plazas of the Caguana Indigenous Park are sacred spaces where the Taínos performed their ceremonies and rituals. Each plaza has unique characteristics and cultural significance.',
-      items: [
-        {
-          title: 'Plaza Central A',
-          description: 'La plaza principal del complejo, donde se realizaban las ceremonias más importantes. Contiene varios petroglifos y está rodeada de monolitos de piedra.',
-          imageUrl: '/src/assets/images/plaza_a.jpg',
-          altText: 'Vista de la Plaza Central del Parque Ceremonial Indígena Caguana'
-        },
-        {
-          title: 'Batey B',
-          description: 'Batey dedicado a los líderes taínos, donde se celebraban reuniones y decisiones importantes para la comunidad.',
-          imageUrl: '/src/assets/images/batey_b.jpg',
-          altText: 'Plaza de los Caciques con piedras ceremoniales'
-        },
-        {
-          title: 'Batey C',
-          description: 'Espacio orientado astronómicamente, utilizado para ceremonias relacionadas con los ciclos solares y el calendario agrícola.',
-          imageUrl: '/src/assets/images/batey_c.jpg',
-          altText: 'Plaza del Sol con orientación astronómica'
-        },
-        {
-          title: 'Batey E',
-          description: 'Plaza ceremonial utilizada para rituales nocturnos y celebraciones vinculadas a las fases de la luna.',
-          imageUrl: '/src/assets/images/batey_e.jpg',
-          altText: 'Plaza de la Luna con símbolos lunares'
-        },
-        {
-          title: 'Batey H',
-          description: 'Espacio dedicado a ceremonias para pedir abundancia y fertilidad en las cosechas, con petroglifos alusivos.',
-          imageUrl: '/src/assets/images/batey_h.jpg',
-          altText: 'Plaza de la Fertilidad con petroglifos'
-        },
-        {
-          title: 'Batey I',
-          description: 'Batey para honrar a los antepasados y fortalecer la conexión espiritual con ellos mediante rituales especiales.',
-          imageUrl: '/src/assets/images/batey_i.jpg',
-          altText: 'Plaza de los Ancestros con monolitos ceremoniales'
-        },
-        {
-          title: 'Batey K',
-          description: 'Plaza cercana al agua, donde se realizaban rituales para la lluvia y la protección de los recursos hídricos.',
-          imageUrl: '/src/assets/images/batey_k.jpg',
-          altText: 'Plaza del Agua con elementos ceremoniales'
-        },
-        {
-          title: 'Batey L',
-          description: 'Espacio con la mayor concentración de arte rupestre, representando deidades, figuras humanas y símbolos cósmicos.',
-          imageUrl: '/src/assets/images/batey_l.jpg',
-          altText: 'Plaza de los Petroglifos con arte rupestre taíno'
-        },
-        {
-          title: 'Batey M',
-          description: 'Batey más pequeño, posiblemente usado para rituales íntimos o ceremonias de iniciación de miembros jóvenes.',
-          imageUrl: '/src/assets/images/batey_m.jpg',
-          altText: 'Plaza Ceremonial Menor del complejo arqueológico'
-        },
-        {
-          title: 'Batey N',
-          description: 'Plaza alineada con puntos astronómicos, evidencia del avanzado conocimiento taíno sobre los astros.',
-          imageUrl: '/src/assets/images/batey_n.jpg',
-          altText: 'Plaza de las Estrellas con orientación astronómica'
-        }
-      ]
-    },
-    nav: {
-      titulo: 'Parque Indígena Caguana',
-      plazas: 'Plazas Indígenas',
-      petroglifos: 'Petroglifos',
-      flora: 'Flora',
-      fauna: 'Fauna',
-      visitanos: 'Visítanos',
-      info: 'Información'
-    },
-    hero: {
-      title: 'Parque Ceremonial Indígena Caguana',
-      subtitle: 'Descubre el legado taíno de Puerto Rico',
-      explore: 'Explorar',
-      learnMore: 'Conoce más'
-    },
-    featured: {
-      title: 'Destacados',
-      plazaTitle: 'Plazas Ceremoniales',
-      plazaDesc: 'Conoce los espacios donde los taínos realizaban sus ceremonias y juegos.',
-      petroTitle: 'Petroglifos Únicos',
-      petroDesc: 'Explora el arte rupestre que cuenta historias ancestrales.',
-      floraTitle: 'Flora Nativa y Exótica',
-      floraDesc: 'Descubre la vegetación que provee el parque y su importancia cultural.'
-    },
-    visit: {
-      title: 'Planifica tu visita',
-      location: 'Ubicación: Utuado, Puerto Rico',
-      hours: 'Horario: Abierto todos los días (lunes a domingo) de 9:00 a.m. a 4:00 p.m.',
-      phone: 'Teléfono para información o reservaciones: 787-894-7325',
-      admission: {
-        title: 'Tarifas de Entrada:',
-        adults: 'Adultos: $5',
-        children: 'Niños (6 a 13 años): $3',
-        cashOnly: 'Solo se acepta efectivo.'
-      },
-      facilities: {
-        title: 'Instalaciones:',
-        museum: 'Entrada incluye acceso al museo y al área arqueológica.',
-        accessibility: 'El museo es accesible en silla de ruedas, pero las plazas ceremoniales no.',
-        restrooms: 'Hay baños disponibles en el museo y cerca del estacionamiento.',
-        duration: 'Se recomienda dedicar aproximadamente 45 minutos para recorrer todo el lugar.'
-      },
-      importantNotes: {
-        title: 'Notas Importantes:',
-        weatherRestrictions: 'El acceso a las canchas de juego puede estar restringido en días lluviosos por seguridad.',
-        parking: 'Estacionamiento gratuito disponible.'
-      },
-      directions: {
-        title: 'Cómo llegar:',
-        fromArecibo: 'Desde la autopista Ruta 22 (Arecibo), toma la Ruta 10 sur hacia Utuado.',
-        turnRight: 'Gira a la derecha en la Carretera 111, el parque está ubicado en el KM 48.6.',
-        entrance: 'El parque tiene una entrada visible con portón, no te lo puedes perder.',
-        roadCondition: 'La carretera 111 es estrecha y sinuosa, se recomienda manejar con precaución y disfrutar del paisaje montañoso.'
-      },
-      recommendedClothing: {
-        title: 'Vestimenta Recomendada:',
-        intro: 'Para disfrutar cómodamente de tu visita al parque, se recomienda usar:',
-        items: [
-          'Ropa cómoda y ligera',
-          'Pantalones largos',
-          'Zapatos cerrados',
-          'Medias largas',
-          'Gorra o sombrero',
-          'Gafas de sol'
-        ],
-        note: 'Estas sugerencias te ayudarán a estar más protegido del sol, los insectos y las áreas irregulares del terreno.'
-      },
-      bookTour: 'Reservar visita guiada',
-      address: 'Dirección: Carretera PR-111, KM 48.6, Utuado, Puerto Rico'
-    },
-    about: {
-      title: 'Sobre el parque',
-      description: 'El Parque Ceremonial Indígena de Caguana, ubicado en Utuado, es uno de los sitios arqueológicos más importantes de Puerto Rico y el Caribe. Contiene evidencia de los asentamientos taínos que datan del 1270 d.C.'
-    },
-    qrcode: {
-      title: 'Descubre mediante códigos QR',
-      description: 'Explora el parque escaneando los códigos QR ubicados en cada plaza, petroglifo, árbol y elemento significativo. Accede a contenido exclusivo como audios, videos e información detallada.',
-      howItWorks: 'Cómo funciona'
-    },
-    footer: {
-      description: 'Un tesoro histórico y cultural de Puerto Rico',
-      quickLinks: 'Enlaces rápidos',
-      contact: 'Contáctanos',
-      email: 'info@parquecaguanas.pr',
-      rights: 'Todos los derechos reservados.'
+      rights: 'All rights reserved.'
     }
   }
 };

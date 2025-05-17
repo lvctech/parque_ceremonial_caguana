@@ -45,15 +45,15 @@ export default function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'plazas':
-        return <PlazasPage language={language} translations={translations} />;
+        return <PlazasPage key={language} language={language} translations={translations} />;
       case 'petroglifos':
-        return <PetroglifosPage language={language} translations={translations} />;
+        return <PetroglifosPage key={language} language={language} translations={translations} />;
       case 'flora':
-        return <FloraPage language={language} translations={translations} />;
+        return <FloraPage key={language} language={language} translations={translations} />;
       case 'fauna':
-        return <FaunaPage language={language} translations={translations} />;
+        return <FaunaPage key={language} language={language} translations={translations} />;
       default:
-        return <HomePage language={language} setLanguage={setLanguage} translations={translations} />;
+        return <HomePage key={language} language={language} setLanguage={setLanguage} translations={translations} />;
     }
   };
 
