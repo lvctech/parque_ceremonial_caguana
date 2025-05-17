@@ -54,11 +54,15 @@ export default function HeroSection({
 
   return (
     <section className="relative h-96 bg-cover bg-center overflow-hidden" style={{ backgroundColor: '#2A7E43' }}>
-      {/* Imagen de fondo */}
+      {/* Imagen de fondo dinámica según la página */}
       <img
         className="absolute inset-0 w-full h-full object-cover z-0"
-        src="/src/assets/images/img_hero_caguana.jpg"
-        alt="Hero Caguana"
+        src={
+          pageName === "petroglifos"
+            ? "/src/assets/images/img_hero_petroglifos.jpg"
+            : "/src/assets/images/img_hero_caguana.jpg"
+        }
+        alt={pageName === "petroglifos" ? "Hero Petroglifos" : "Hero Caguana"}
         style={{ opacity: 0.45 }}
       />
       {/* Capa de oscurecimiento extra */}

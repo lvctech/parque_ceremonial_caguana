@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import MainLayout from './layouts/MainLayout.jsx';
 import HomePage from './pages/HomePage.jsx';
 import PlazasPage from './pages/PlazasPage.jsx';
+import PetroglifosPage from './pages/PetroglifosPage.jsx';
 import { translations } from './i18n/translations.js';
 
 export default function App() {
@@ -15,6 +16,8 @@ export default function App() {
       const hash = window.location.hash;
       if (hash === '#plazas') {
         setCurrentPage('plazas');
+      } else if (hash === '#petroglifos') {
+        setCurrentPage('petroglifos');
       } else {
         setCurrentPage('home');
       }
@@ -37,6 +40,8 @@ export default function App() {
     switch (currentPage) {
       case 'plazas':
         return <PlazasPage language={language} translations={translations} />;
+      case 'petroglifos':
+        return <PetroglifosPage language={language} translations={translations} />;
       default:
         return <HomePage language={language} translations={translations} />;
     }

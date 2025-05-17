@@ -7,7 +7,12 @@ export default function AboutSection({ language, translations }) {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="w-full md:w-1/2">
-            <div className="h-64 md:h-96 bg-gray-300 rounded-lg"></div>
+            {/* Imagen del parque */}
+            <img
+              src="/src/assets/images/parque_indigena_caguana.jpg"
+              alt="Parque Indígena Caguana"
+              className="h-64 md:h-96 w-full object-cover rounded-lg shadow-md"
+            />
           </div>
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl font-bold mb-4 text-gray-800">{t.about.title}</h2>

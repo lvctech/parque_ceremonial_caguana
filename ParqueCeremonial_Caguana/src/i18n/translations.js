@@ -1,6 +1,48 @@
 // src/i18n/translations.js
 export const translations = {
   es: {
+    petroglifos: {
+      title: 'Petroglifos',
+      description: 'Los petroglifos tallados en piedra son símbolos sagrados del pasado taíno, representando deidades, animales y aspectos de la vida cotidiana.',
+      items: [
+        {
+          title: 'Mujer de Caguana/ Abatey',
+          description: 'Representación del dios solar taíno, Yocahú. Este símbolo era central en la cosmología taína y representaba la vida y la energía.',
+          imageUrl: '/src/assets/images/mujer_caguana_abatey.jpg',
+          altText: 'Petroglifo que representa al dios solar taíno'
+        },
+        {
+          title: 'Petroglifo de Ave',
+          description: 'La rana o "coquí" era un símbolo de fertilidad y lluvia en la cultura taína. Este petroglifo muestra la importancia de estos anfibios en su mitología.',
+          imageUrl: '/src/assets/images/ave_petroglifo.jpg',
+          altText: 'Petroglifo con forma de rana tallado en piedra'
+        },
+        {
+          title: 'Cemí Antropomorfo',
+          description: 'Figura con características humanas que representa a un espíritu o deidad taína. Los cemíes eran objetos de veneración y conexión con el mundo espiritual.',
+          imageUrl: '/src/assets/images/petroglifos.jpg',
+          altText: 'Petroglifo de figura antropomorfa representando un cemí'
+        },
+        {
+          title: 'Espiral de la Vida',
+          description: 'Símbolo que representa los ciclos de la vida, la continuidad y el movimiento perpetuo. Era común en muchos sitios ceremoniales taínos.',
+          imageUrl: '/src/assets/images/petroglifos.jpg',
+          altText: 'Petroglifo con forma de espiral tallado en piedra'
+        },
+        {
+          title: 'Rostro de Cacique',
+          description: 'Representación de un líder o cacique taíno. Estos petroglifos honraban a los líderes importantes y preservaban su memoria.',
+          imageUrl: '/src/assets/images/petroglifos.jpg',
+          altText: 'Petroglifo que representa el rostro de un cacique taíno'
+        },
+        {
+          title: 'Símbolo de la Lluvia',
+          description: 'Petroglifo asociado con rituales para invocar la lluvia. Muestra la importancia del agua en la agricultura y supervivencia taína.',
+          imageUrl: '/src/assets/images/petroglifos.jpg',
+          altText: 'Petroglifo con símbolos relacionados con la lluvia'
+        }
+      ]
+    },
     plazas: {
       title: 'Plazas Indígenas',
       description: 'Las plazas ceremoniales del Parque Indígena de Caguana son espacios sagrados donde los taínos realizaban sus ceremonias y rituales. Cada plaza tiene características únicas y significado cultural.',
@@ -155,6 +197,48 @@ export const translations = {
     }
   },
   en: {
+    petroglifos: {
+      title: 'Petroglyphs',
+      description: 'The petroglyphs carved in stone are sacred symbols from the Taíno past, representing deities, animals, and aspects of daily life.',
+      items: [
+        {
+          title: 'Woman of Caguana/ Abatey',
+          description: 'Representation of the Taíno sun god, Yocahú. This symbol was central to Taíno cosmology and represented life and energy.',
+          imageUrl: '/src/assets/images/petroglifos.jpg',
+          altText: 'Petroglyph representing the Taíno sun god'
+        },
+        {
+          title: 'Bird Petroglyph',
+          description: 'The frog or "coquí" was a symbol of fertility and rain in Taíno culture. This petroglyph shows the importance of these amphibians in their mythology.',
+          imageUrl: '/src/assets/images/petroglifos.jpg',
+          altText: 'Frog-shaped petroglyph carved in stone'
+        },
+        {
+          title: 'Anthropomorphic Cemí',
+          description: 'Figure with human characteristics representing a Taíno spirit or deity. Cemíes were objects of veneration and connection with the spiritual world.',
+          imageUrl: '/src/assets/images/petroglifos.jpg',
+          altText: 'Petroglyph of anthropomorphic figure representing a cemí'
+        },
+        {
+          title: 'Spiral of Life',
+          description: 'Symbol representing the cycles of life, continuity, and perpetual movement. It was common in many Taíno ceremonial sites.',
+          imageUrl: '/src/assets/images/petroglifos.jpg',
+          altText: 'Spiral-shaped petroglyph carved in stone'
+        },
+        {
+          title: 'Cacique Face',
+          description: 'Representation of a Taíno leader or cacique. These petroglyphs honored important leaders and preserved their memory.',
+          imageUrl: '/src/assets/images/petroglifos.jpg',
+          altText: 'Petroglyph representing the face of a Taíno cacique'
+        },
+        {
+          title: 'Rain Symbol',
+          description: 'Petroglyph associated with rituals to invoke rain. It shows the importance of water in Taíno agriculture and survival.',
+          imageUrl: '/src/assets/images/petroglifos.jpg',
+          altText: 'Petroglyph with symbols related to rain'
+        }
+      ]
+    },
     plazas: {
       title: 'Indigenous Plazas',
       description: 'The ceremonial plazas of the Caguana Indigenous Park are sacred spaces where the Taínos performed their ceremonies and rituals. Each plaza has unique characteristics and cultural significance.',
