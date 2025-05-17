@@ -60,9 +60,17 @@ export default function HeroSection({
         src={
           pageName === "petroglifos"
             ? "/src/assets/images/img_hero_petroglifos.jpg"
-            : "/src/assets/images/img_hero_caguana.jpg"
+            : pageName === "flora"
+              ? "/src/assets/images/arbol_acasia_rosada.jpg"
+              : "/src/assets/images/img_hero_caguana.jpg"
         }
-        alt={pageName === "petroglifos" ? "Hero Petroglifos" : "Hero Caguana"}
+        alt={
+          pageName === "petroglifos"
+            ? "Hero Petroglifos"
+            : pageName === "flora"
+              ? "Hero Flora"
+              : "Hero Caguana"
+        }
         style={{ opacity: 0.45 }}
       />
       {/* Capa de oscurecimiento extra */}

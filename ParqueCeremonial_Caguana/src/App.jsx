@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage.jsx';
 import PlazasPage from './pages/PlazasPage.jsx';
 import PetroglifosPage from './pages/PetroglifosPage.jsx';
 import FloraPage from './pages/FloraPage.jsx';
+import FaunaPage from './pages/FaunaPage.jsx';
 import { translations } from './i18n/translations.js';
 
 export default function App() {
@@ -21,6 +22,8 @@ export default function App() {
         setCurrentPage('petroglifos');
       } else if (hash === '#flora') {
         setCurrentPage('flora');
+      } else if (hash === '#fauna') {
+        setCurrentPage('fauna');
       } else {
         setCurrentPage('home');
       }
@@ -47,6 +50,8 @@ export default function App() {
         return <PetroglifosPage language={language} translations={translations} />;
       case 'flora':
         return <FloraPage language={language} translations={translations} />;
+      case 'fauna':
+        return <FaunaPage language={language} translations={translations} />;
       default:
         return <HomePage language={language} translations={translations} />;
     }

@@ -1,6 +1,36 @@
 // src/i18n/translations.js
 export const translations = {
   es: {
+    fauna: {
+      title: 'Fauna',
+      description: 'El Parque Ceremonial de Caguana es hogar de una variada fauna autóctona, incluyendo aves, reptiles y anfibios que habitan sus áreas boscosas y húmedas.',
+      items: [
+        {
+          title: 'Múcaro (Megascops nudipes)',
+          description: 'Ave endémica de Puerto Rico. Este búho pequeño habita en los bosques del parque y es reconocible por su canto distintivo durante la noche. Se alimenta principalmente de insectos y pequeños roedores.',
+          imageUrl: '/src/assets/images/amapola.jpg',
+          altText: 'Múcaro, búho endémico de Puerto Rico'
+        },
+        {
+          title: 'Julián Chiví (Vireo altiloquus)',
+          description: 'Ave migratoria que visita la isla durante los meses de primavera y verano. Su canto melodioso es característico de las áreas boscosas del parque. Se alimenta principalmente de insectos y frutas pequeñas.',
+          imageUrl: '/src/assets/images/amapola.jpg',
+          altText: 'Julián Chiví, ave migratoria de Puerto Rico'
+        },
+        {
+          title: 'Lagarto Anolis (Anolis cristatellus)',
+          description: 'Reptil común en todo Puerto Rico. Este pequeño lagarto de color verde o marrón es conocido por su capacidad de cambiar de color según su entorno. Se puede observar en troncos de árboles y rocas del parque.',
+          imageUrl: '/src/assets/images/amapola.jpg',
+          altText: 'Lagarto Anolis en su hábitat natural'
+        },
+        {
+          title: 'Sapo de Caña (Rhinella marina)',
+          description: 'Anfibio introducido en Puerto Rico. Este sapo de gran tamaño es nocturno y se encuentra frecuentemente cerca de áreas húmedas del parque. Produce una toxina que lo protege de depredadores.',
+          imageUrl: '/src/assets/images/amapola.jpg',
+          altText: 'Sapo de Caña en el Parque Ceremonial de Caguana'
+        }
+      ]
+    },
     flora: {
       title: 'Flora',
       description: 'El Parque Ceremonial de Caguana alberga una gran variedad de flora tropical, incluyendo especies nativas y exóticas que forman parte del ecosistema de la región montañosa de Puerto Rico.',
@@ -55,39 +85,39 @@ export const translations = {
       items: [
         {
           title: 'Mujer de Caguana/ Atabéy',
-          description: 'Representación del dios solar taíno, Yocahú. Este símbolo era central en la cosmología taína y representaba la vida y la energía.',
+          description: 'Este petroglifo representa a Atabey, la diosa madre de la fertilidad y el agua en la cultura taína. Es símbolo de vida, creación y protección.',
           imageUrl: '/src/assets/images/mujer_caguana_abatey.jpg',
-          altText: 'Petroglifo que representa al dios solar taíno'
+          altText: 'Petroglifo que representa a Atabey, diosa madre taína'
         },
         {
           title: 'Petroglifo de Ave',
-          description: 'La rana o "coquí" era un símbolo de fertilidad y lluvia en la cultura taína. Este petroglifo muestra la importancia de estos anfibios en su mitología.',
+          description: 'Figura de ave que simboliza la conexión entre el mundo terrenal y el espiritual. Las aves eran mensajeras de los dioses para los taínos.',
           imageUrl: '/src/assets/images/ave_petroglifo.jpg',
-          altText: 'Petroglifo con forma de rana tallado en piedra'
+          altText: 'Petroglifo de ave, mensajera espiritual taína'
         },
         {
           title: 'Diosa Luna',
-          description: 'Figura con características humanas que representa a un espíritu o deidad taína. Los cemíes eran objetos de veneración y conexión con el mundo espiritual.',
+          description: 'Representación de la diosa lunar taína, asociada a los ciclos de la naturaleza y la fertilidad. La luna era guía para la agricultura y los rituales.',
           imageUrl: '/src/assets/images/diosa_luna.jpg',
-          altText: 'Petroglifo de figura antropomorfa representando un cemí'
+          altText: 'Petroglifo de la diosa lunar taína'
         },
         {
           title: 'Petroglifo de Espiral/ Agua',
-          description: 'Símbolo que representa los ciclos de la vida, la continuidad y el movimiento perpetuo. Era común en muchos sitios ceremoniales taínos.',
+          description: 'El espiral simboliza el agua, la continuidad y el ciclo de la vida. Era un motivo común en los rituales de agradecimiento por la lluvia.',
           imageUrl: '/src/assets/images/petro_espiral.jpg',
-          altText: 'Petroglifo con forma de espiral tallado en piedra'
+          altText: 'Petroglifo en espiral, símbolo de agua y vida'
         },
         {
           title: 'Petroglifo de Ojos',
-          description: 'Representación de un líder o cacique taíno. Estos petroglifos honraban a los líderes importantes y preservaban su memoria.',
+          description: 'Este petroglifo representa la vigilancia y la sabiduría de los ancestros. Los ojos simbolizan protección espiritual sobre la comunidad.',
           imageUrl: '/src/assets/images/petroglifo_ojos.jpg',
-          altText: 'Petroglifo que representa el rostro de un cacique taíno'
+          altText: 'Petroglifo de ojos, símbolo de protección ancestral'
         },
         {
           title: 'Petroglifo de Fertilidad',
-          description: 'Petroglifo asociado con rituales para invocar la lluvia. Muestra la importancia del agua en la agricultura y supervivencia taína.',
+          description: 'Petroglifo asociado a rituales para la fertilidad de la tierra y la abundancia en las cosechas. Refleja la importancia de la naturaleza para los taínos.',
           imageUrl: '/src/assets/images/fertilidad.jpg',
-          altText: 'Petroglifo con símbolos relacionados con la lluvia'
+          altText: 'Petroglifo de fertilidad y abundancia agrícola'
         }
       ]
     },
@@ -103,55 +133,55 @@ export const translations = {
         },
         {
           title: 'Batey B',
-          description: 'Espacio dedicado a los líderes taínos, donde se celebraban consejos y reuniones importantes. Presenta una forma rectangular con piedras ceremoniales.',
+          description: 'Batey dedicado a los líderes taínos, donde se celebraban reuniones y decisiones importantes para la comunidad.',
           imageUrl: '/src/assets/images/batey_b.jpg',
           altText: 'Plaza de los Caciques con piedras ceremoniales'
         },
         {
           title: 'Batey C',
-          description: 'Orientada para capturar los rayos del sol durante los solsticios. Los taínos utilizaban esta plaza para ceremonias relacionadas con los ciclos solares y las estaciones.',
+          description: 'Espacio orientado astronómicamente, utilizado para ceremonias relacionadas con los ciclos solares y el calendario agrícola.',
           imageUrl: '/src/assets/images/batey_c.jpg',
           altText: 'Plaza del Sol con orientación astronómica'
         },
         {
           title: 'Batey E',
-          description: 'Dedicada a rituales nocturnos y celebraciones relacionadas con los ciclos lunares. Contiene símbolos que representan las fases de la luna.',
+          description: 'Plaza ceremonial utilizada para rituales nocturnos y celebraciones vinculadas a las fases de la luna.',
           imageUrl: '/src/assets/images/batey_e.jpg',
           altText: 'Plaza de la Luna con símbolos lunares'
         },
         {
           title: 'Batey H',
-          description: 'Espacio donde se realizaban ceremonias para promover buenas cosechas y fertilidad. Contiene petroglifos con símbolos de fertilidad y abundancia.',
+          description: 'Espacio dedicado a ceremonias para pedir abundancia y fertilidad en las cosechas, con petroglifos alusivos.',
           imageUrl: '/src/assets/images/batey_h.jpg',
           altText: 'Plaza de la Fertilidad con petroglifos'
         },
         {
           title: 'Batey I',
-          description: 'Dedicada a honrar a los antepasados y mantener conexión con el mundo espiritual. Presenta monolitos que representan figuras ancestrales.',
+          description: 'Batey para honrar a los antepasados y fortalecer la conexión espiritual con ellos mediante rituales especiales.',
           imageUrl: '/src/assets/images/batey_i.jpg',
           altText: 'Plaza de los Ancestros con monolitos ceremoniales'
         },
         {
           title: 'Batey K',
-          description: 'Cercana a fuentes de agua, esta plaza estaba dedicada a ceremonias relacionadas con la lluvia y los cuerpos de agua tan importantes para la cultura taína.',
+          description: 'Plaza cercana al agua, donde se realizaban rituales para la lluvia y la protección de los recursos hídricos.',
           imageUrl: '/src/assets/images/batey_k.jpg',
           altText: 'Plaza del Agua con elementos ceremoniales'
         },
         {
           title: 'Batey L',
-          description: 'Contiene la mayor concentración de arte rupestre del parque, con representaciones de deidades, figuras humanas y símbolos cosmológicos.',
+          description: 'Espacio con la mayor concentración de arte rupestre, representando deidades, figuras humanas y símbolos cósmicos.',
           imageUrl: '/src/assets/images/batey_l.jpg',
           altText: 'Plaza de los Petroglifos con arte rupestre taíno'
         },
         {
           title: 'Batey M',
-          description: 'Espacio más íntimo donde probablemente se realizaban rituales para grupos más pequeños o ceremonias de iniciación.',
+          description: 'Batey más pequeño, posiblemente usado para rituales íntimos o ceremonias de iniciación de miembros jóvenes.',
           imageUrl: '/src/assets/images/batey_m.jpg',
           altText: 'Plaza Ceremonial Menor del complejo arqueológico'
         },
         {
           title: 'Batey N',
-          description: 'Orientada hacia puntos astronómicos específicos, esta plaza muestra el avanzado conocimiento que los taínos tenían sobre los astros y constelaciones.',
+          description: 'Plaza alineada con puntos astronómicos, evidencia del avanzado conocimiento taíno sobre los astros.',
           imageUrl: '/src/assets/images/batey_n.jpg',
           altText: 'Plaza de las Estrellas con orientación astronómica'
         }
@@ -245,6 +275,36 @@ export const translations = {
     }
   },
   en: {
+    fauna: {
+      title: 'Fauna',
+      description: 'The Caguana Ceremonial Park is home to a diverse native fauna, including birds, reptiles, and amphibians that inhabit its wooded and humid areas.',
+      items: [
+        {
+          title: 'Puerto Rican Screech Owl (Megascops nudipes)',
+          description: 'Bird endemic to Puerto Rico. This small owl inhabits the forests of the park and is recognizable by its distinctive call during the night. It feeds mainly on insects and small rodents.',
+          imageUrl: '/src/assets/images/amapola.jpg',
+          altText: 'Puerto Rican Screech Owl, endemic bird of Puerto Rico'
+        },
+        {
+          title: 'Black-whiskered Vireo (Vireo altiloquus)',
+          description: 'Migratory bird that visits the island during the spring and summer months. Its melodious song is characteristic of the wooded areas of the park. It feeds mainly on insects and small fruits.',
+          imageUrl: '/src/assets/images/amapola.jpg',
+          altText: 'Black-whiskered Vireo, migratory bird of Puerto Rico'
+        },
+        {
+          title: 'Crested Anole (Anolis cristatellus)',
+          description: 'Reptile common throughout Puerto Rico. This small green or brown lizard is known for its ability to change color according to its environment. It can be observed on tree trunks and rocks in the park.',
+          imageUrl: '/src/assets/images/amapola.jpg',
+          altText: 'Crested Anole in its natural habitat'
+        },
+        {
+          title: 'Cane Toad (Rhinella marina)',
+          description: 'Amphibian introduced to Puerto Rico. This large toad is nocturnal and is frequently found near humid areas of the park. It produces a toxin that protects it from predators.',
+          imageUrl: '/src/assets/images/amapola.jpg',
+          altText: 'Cane Toad at the Caguana Ceremonial Park'
+        }
+      ]
+    },
     flora: {
       title: 'Flora',
       description: 'The Caguana Ceremonial Park is home to a wide variety of tropical flora, including native and exotic species that are part of the ecosystem of Puerto Rico\'s mountainous region.',
@@ -299,39 +359,39 @@ export const translations = {
       items: [
         {
           title: 'Woman of Caguana/ Atabéy',
-          description: 'Representation of the Taíno sun god, Yocahú. This symbol was central to Taíno cosmology and represented life and energy.',
+          description: 'This petroglyph represents Atabey, the mother goddess of fertility and water in Taíno culture. She is a symbol of life, creation, and protection.',
           imageUrl: '/src/assets/images/mujer_caguana_abatey.jpg',
-          altText: 'Petroglyph representing the Taíno sun god'
+          altText: 'Petroglyph representing Atabey, Taíno mother goddess'
         },
         {
           title: 'Bird Petroglyph',
-          description: 'The frog or "coquí" was a symbol of fertility and rain in Taíno culture. This petroglyph shows the importance of these amphibians in their mythology.',
+          description: 'Bird figure symbolizing the connection between the earthly and spiritual worlds. Birds were considered messengers of the gods by the Taínos.',
           imageUrl: '/src/assets/images/ave_petroglifo.jpg',
-          altText: 'Frog-shaped petroglyph carved in stone'
+          altText: 'Bird petroglyph, Taíno spiritual messenger'
         },
         {
           title: 'Moon Goddess',
-          description: 'Figure with human characteristics representing a Taíno spirit or deity. Cemíes were objects of veneration and connection with the spiritual world.',
+          description: 'Representation of the Taíno moon goddess, associated with nature’s cycles and fertility. The moon guided agriculture and rituals.',
           imageUrl: '/src/assets/images/diosa_luna.jpg',
-          altText: 'Petroglyph of anthropomorphic figure representing a cemí'
+          altText: 'Petroglyph of the Taíno moon goddess'
         },
         {
           title: 'Spiral/ Water Petroglyph',
-          description: 'Symbol representing the cycles of life, continuity, and perpetual movement. It was common in many Taíno ceremonial sites.',
+          description: 'The spiral symbolizes water, continuity, and the cycle of life. It was a common motif in rituals giving thanks for rain.',
           imageUrl: '/src/assets/images/petro_espiral.jpg',
-          altText: 'Spiral-shaped petroglyph carved in stone'
+          altText: 'Spiral petroglyph, symbol of water and life'
         },
         {
           title: 'Eye Petroglyph',
-          description: 'Representation of a Taíno leader or cacique. These petroglyphs honored important leaders and preserved their memory.',
+          description: 'This petroglyph represents the vigilance and wisdom of the ancestors. The eyes symbolize spiritual protection over the community.',
           imageUrl: '/src/assets/images/petroglifo_ojos.jpg',
-          altText: 'Petroglyph representing the face of a Taíno cacique'
+          altText: 'Eye petroglyph, symbol of ancestral protection'
         },
         {
           title: 'Fertility Petroglyph',
-          description: 'Petroglyph associated with rituals to invoke rain. It shows the importance of water in Taíno agriculture and survival.',
+          description: 'Petroglyph associated with rituals for the fertility of the land and abundance in crops. It reflects the importance of nature for the Taínos.',
           imageUrl: '/src/assets/images/fertilidad.jpg',
-          altText: 'Petroglyph with symbols related to rain'
+          altText: 'Fertility petroglyph, symbol of agricultural abundance'
         }
       ]
     },
@@ -347,55 +407,55 @@ export const translations = {
         },
         {
           title: 'Batey B',
-          description: 'Space dedicated to Taíno leaders, where councils and important meetings were held. It has a rectangular shape with ceremonial stones.',
+          description: 'Batey dedicated to Taíno leaders, where important community meetings and decisions took place.',
           imageUrl: '/src/assets/images/batey_b.jpg',
           altText: 'Caciques Plaza with ceremonial stones'
         },
         {
           title: 'Batey C',
-          description: 'Oriented to capture the sun\'s rays during solstices. The Taínos used this plaza for ceremonies related to solar cycles and seasons.',
+          description: 'Astronomically oriented space, used for ceremonies related to solar cycles and the agricultural calendar.',
           imageUrl: '/src/assets/images/batey_c.jpg',
           altText: 'Sun Plaza with astronomical orientation'
         },
         {
           title: 'Batey E',
-          description: 'Dedicated to nocturnal rituals and celebrations related to lunar cycles. It contains symbols representing the phases of the moon.',
+          description: 'Ceremonial plaza used for nighttime rituals and celebrations linked to the phases of the moon.',
           imageUrl: '/src/assets/images/batey_e.jpg',
           altText: 'Moon Plaza with lunar symbols'
         },
         {
           title: 'Batey H',
-          description: 'Space where ceremonies were held to promote good harvests and fertility. It contains petroglyphs with symbols of fertility and abundance.',
+          description: 'Space dedicated to ceremonies asking for abundance and fertility in crops, with allusive petroglyphs.',
           imageUrl: '/src/assets/images/batey_h.jpg',
           altText: 'Fertility Plaza with petroglyphs'
         },
         {
           title: 'Batey I',
-          description: 'Dedicated to honoring ancestors and maintaining connection with the spiritual world. It features monoliths representing ancestral figures.',
+          description: 'Batey to honor ancestors and strengthen the spiritual connection with them through special rituals.',
           imageUrl: '/src/assets/images/batey_i.jpg',
           altText: 'Ancestors Plaza with ceremonial monoliths'
         },
         {
           title: 'Batey K',
-          description: 'Close to water sources, this plaza was dedicated to ceremonies related to rain and bodies of water so important to Taíno culture.',
+          description: 'Plaza near water, where rituals for rain and protection of water resources were performed.',
           imageUrl: '/src/assets/images/batey_k.jpg',
           altText: 'Water Plaza with ceremonial elements'
         },
         {
           title: 'Batey L',
-          description: 'Contains the highest concentration of rock art in the park, with representations of deities, human figures, and cosmological symbols.',
+          description: 'Space with the highest concentration of rock art, representing deities, human figures, and cosmic symbols.',
           imageUrl: '/src/assets/images/batey_l.jpg',
           altText: 'Petroglyphs Plaza with Taíno rock art'
         },
         {
           title: 'Batey M',
-          description: 'More intimate space where rituals were probably performed for smaller groups or initiation ceremonies.',
+          description: 'Smaller batey, possibly used for intimate rituals or initiation ceremonies for young members.',
           imageUrl: '/src/assets/images/batey_m.jpg',
           altText: 'Minor Ceremonial Plaza of the archaeological complex'
         },
         {
           title: 'Batey N',
-          description: 'Oriented towards specific astronomical points, this plaza shows the advanced knowledge that the Taínos had about stars and constellations.',
+          description: 'Plaza aligned with astronomical points, evidence of the Taínos’ advanced knowledge of the stars.',
           imageUrl: '/src/assets/images/batey_n.jpg',
           altText: 'Stars Plaza with astronomical orientation'
         }
