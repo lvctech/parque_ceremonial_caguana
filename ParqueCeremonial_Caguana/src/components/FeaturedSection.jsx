@@ -20,7 +20,12 @@ export default function FeaturedSection({ language, translations }) {
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-gray-800">{t.featured.plazaTitle}</h3>
                 <p className="text-gray-600">{t.featured.plazaDesc}</p>
-                <a href="#plazas" className="inline-block mt-4 text-green-700 hover:text-green-900 font-medium">→ {t.hero.learnMore}</a>
+                <a
+                  href={language === 'es' ? "#plazas" : "#plazas"}
+                  className="inline-block mt-4 text-green-700 hover:text-green-900 font-medium"
+                >
+                  → {t.hero.learnMore}
+                </a>
               </div>
             </div>
             
@@ -35,7 +40,12 @@ export default function FeaturedSection({ language, translations }) {
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-gray-800">{t.featured.petroTitle}</h3>
                 <p className="text-gray-600">{t.featured.petroDesc}</p>
-                <a href="#petroglifos" className="inline-block mt-4 text-green-700 hover:text-green-900 font-medium">→ {t.hero.learnMore}</a>
+                <a
+                  href={language === 'es' ? "#petroglifos" : "#petroglifos"}
+                  className="inline-block mt-4 text-green-700 hover:text-green-900 font-medium"
+                >
+                  → {t.hero.learnMore}
+                </a>
               </div>
             </div>
             
@@ -50,7 +60,12 @@ export default function FeaturedSection({ language, translations }) {
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-gray-800">{t.featured.floraTitle}</h3>
                 <p className="text-gray-600">{t.featured.floraDesc}</p>
-                <a href="#flora" className="inline-block mt-4 text-green-700 hover:text-green-900 font-medium">→ {t.hero.learnMore}</a>
+                <a
+                  href={language === 'es' ? "#flora" : "#flora"}
+                  className="inline-block mt-4 text-green-700 hover:text-green-900 font-medium"
+                >
+                  → {t.hero.learnMore}
+                </a>
               </div>
             </div>
           </div>

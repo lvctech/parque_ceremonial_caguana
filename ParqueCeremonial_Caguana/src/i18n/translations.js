@@ -1,12 +1,60 @@
 // src/i18n/translations.js
 export const translations = {
   es: {
+    flora: {
+      title: 'Flora',
+      description: 'El Parque Ceremonial de Caguana alberga una gran variedad de flora tropical, incluyendo especies nativas y exóticas que forman parte del ecosistema de la región montañosa de Puerto Rico.',
+      items: [
+        {
+          title: 'Ceiba (Ceiba pentandra)',
+          description: 'Árbol sagrado para los taínos, simboliza la conexión entre el mundo terrenal y espiritual. Puede alcanzar hasta 70 metros de altura.',
+          details: 'La Ceiba es considerada el árbol más emblemático de Puerto Rico y es venerada por su tamaño y longevidad.',
+          imageUrl: '/src/assets/images/ceiba.jpg',
+          altText: 'Ceiba pentandra, árbol sagrado y monumental de Puerto Rico'
+        },
+        {
+          title: 'Mango (Mangifera indica)',
+          description: 'Árbol frutal originario del sur de Asia, muy apreciado por sus frutos dulces y jugosos.',
+          details: 'El mango es ampliamente cultivado en Puerto Rico y sus frutos son consumidos frescos o en jugos.',
+          imageUrl: '/src/assets/images/mango.jpg',
+          altText: 'Árbol de mango con frutos maduros'
+        },
+        {
+          title: 'Acasia Rosada (Cassia javanica)',
+          description: 'Árbol ornamental conocido por sus vistosas flores rosadas y su uso medicinal tradicional.',
+          details: 'La acasia rosada embellece los caminos rurales y es apreciada por su sombra y floración abundante.',
+          imageUrl: '/src/assets/images/acasia_rosada.jpg',
+          altText: 'Flores rosadas de la acasia rosada en plena floración'
+        },
+        {
+          title: 'Achiote (Bixa orellana)',
+          description: 'Arbusto cuyas semillas se usan como colorante natural y condimento típico.',
+          details: 'El achiote es fundamental en la cocina puertorriqueña y también se usaba para pinturas corporales indígenas.',
+          imageUrl: '/src/assets/images/achiote.jpg',
+          altText: 'Fruto y semillas de achiote, colorante natural'
+        },
+        {
+          title: 'Amapola (Hibiscus rosa-sinensis)',
+          description: 'Arbusto ornamental de flores grandes y coloridas, símbolo de belleza tropical.',
+          details: 'La amapola es muy utilizada en jardines y plazas por su floración continua y colores vibrantes.',
+          imageUrl: '/src/assets/images/amapola.jpg',
+          altText: 'Flor roja de amapola en un jardín tropical'
+        },
+        {
+          title: 'Platano (Musa paradisiaca)',
+          description: 'Planta herbácea de gran tamaño, fundamental en la dieta caribeña por sus frutos.',
+          details: 'El plátano es base de muchos platos típicos y su cultivo es esencial para la economía agrícola local.',
+          imageUrl: '/src/assets/images/platano.jpg',
+          altText: 'Planta de plátano con racimos de frutos verdes'
+        }
+      ]
+    },
     petroglifos: {
       title: 'Petroglifos',
       description: 'Los petroglifos tallados en piedra son símbolos sagrados del pasado taíno, representando deidades, animales y aspectos de la vida cotidiana.',
       items: [
         {
-          title: 'Mujer de Caguana/ Abatey',
+          title: 'Mujer de Caguana/ Atabéy',
           description: 'Representación del dios solar taíno, Yocahú. Este símbolo era central en la cosmología taína y representaba la vida y la energía.',
           imageUrl: '/src/assets/images/mujer_caguana_abatey.jpg',
           altText: 'Petroglifo que representa al dios solar taíno'
@@ -18,27 +66,27 @@ export const translations = {
           altText: 'Petroglifo con forma de rana tallado en piedra'
         },
         {
-          title: 'Cemí Antropomorfo',
+          title: 'Diosa Luna',
           description: 'Figura con características humanas que representa a un espíritu o deidad taína. Los cemíes eran objetos de veneración y conexión con el mundo espiritual.',
-          imageUrl: '/src/assets/images/petroglifos.jpg',
+          imageUrl: '/src/assets/images/diosa_luna.jpg',
           altText: 'Petroglifo de figura antropomorfa representando un cemí'
         },
         {
-          title: 'Espiral de la Vida',
+          title: 'Petroglifo de Espiral/ Agua',
           description: 'Símbolo que representa los ciclos de la vida, la continuidad y el movimiento perpetuo. Era común en muchos sitios ceremoniales taínos.',
-          imageUrl: '/src/assets/images/petroglifos.jpg',
+          imageUrl: '/src/assets/images/petro_espiral.jpg',
           altText: 'Petroglifo con forma de espiral tallado en piedra'
         },
         {
-          title: 'Rostro de Cacique',
+          title: 'Petroglifo de Ojos',
           description: 'Representación de un líder o cacique taíno. Estos petroglifos honraban a los líderes importantes y preservaban su memoria.',
-          imageUrl: '/src/assets/images/petroglifos.jpg',
+          imageUrl: '/src/assets/images/petroglifo_ojos.jpg',
           altText: 'Petroglifo que representa el rostro de un cacique taíno'
         },
         {
-          title: 'Símbolo de la Lluvia',
+          title: 'Petroglifo de Fertilidad',
           description: 'Petroglifo asociado con rituales para invocar la lluvia. Muestra la importancia del agua en la agricultura y supervivencia taína.',
-          imageUrl: '/src/assets/images/petroglifos.jpg',
+          imageUrl: '/src/assets/images/fertilidad.jpg',
           altText: 'Petroglifo con símbolos relacionados con la lluvia'
         }
       ]
@@ -197,44 +245,92 @@ export const translations = {
     }
   },
   en: {
+    flora: {
+      title: 'Flora',
+      description: 'The Caguana Ceremonial Park is home to a wide variety of tropical flora, including native and exotic species that are part of the ecosystem of Puerto Rico\'s mountainous region.',
+      items: [
+        {
+          title: 'Ceiba (Ceiba pentandra)',
+          description: 'Sacred tree for the Taínos, symbolizing the connection between the earthly and spiritual worlds. It can reach up to 70 meters in height.',
+          details: 'The Ceiba is considered the most emblematic tree of Puerto Rico and is revered for its size and longevity.',
+          imageUrl: '/src/assets/images/ceiba.jpg',
+          altText: 'Ceiba pentandra, sacred and monumental tree of Puerto Rico'
+        },
+        {
+          title: 'Mango (Mangifera indica)',
+          description: 'Fruit tree native to South Asia, highly valued for its sweet and juicy fruits.',
+          details: 'Mango is widely cultivated in Puerto Rico and its fruits are eaten fresh or in juices.',
+          imageUrl: '/src/assets/images/mango.jpg',
+          altText: 'Mango tree with ripe fruits'
+        },
+        {
+          title: 'Pink Acacia (Cassia javanica)',
+          description: 'Ornamental tree known for its showy pink flowers and traditional medicinal use.',
+          details: 'Pink acacia beautifies rural roads and is valued for its shade and abundant flowering.',
+          imageUrl: '/src/assets/images/acasia_rosada.jpg',
+          altText: 'Pink acacia flowers in full bloom'
+        },
+        {
+          title: 'Annatto (Bixa orellana)',
+          description: 'Shrub whose seeds are used as a natural dye and typical seasoning.',
+          details: 'Annatto is essential in Puerto Rican cuisine and was also used for indigenous body paint.',
+          imageUrl: '/src/assets/images/achiote.jpg',
+          altText: 'Annatto fruit and seeds, natural dye'
+        },
+        {
+          title: 'Hibiscus (Hibiscus rosa-sinensis)',
+          description: 'Ornamental shrub with large, colorful flowers, a symbol of tropical beauty.',
+          details: 'Hibiscus is widely used in gardens and plazas for its continuous flowering and vibrant colors.',
+          imageUrl: '/src/assets/images/amapola.jpg',
+          altText: 'Red hibiscus flower in a tropical garden'
+        },
+        {
+          title: 'Plantain (Musa paradisiaca)',
+          description: 'Large herbaceous plant, fundamental in the Caribbean diet for its fruits.',
+          details: 'Plantain is the base of many typical dishes and its cultivation is essential for the local agricultural economy.',
+          imageUrl: '/src/assets/images/platano.jpg',
+          altText: 'Plantain plant with bunches of green fruits'
+        }
+      ]
+    },
     petroglifos: {
       title: 'Petroglyphs',
       description: 'The petroglyphs carved in stone are sacred symbols from the Taíno past, representing deities, animals, and aspects of daily life.',
       items: [
         {
-          title: 'Woman of Caguana/ Abatey',
+          title: 'Woman of Caguana/ Atabéy',
           description: 'Representation of the Taíno sun god, Yocahú. This symbol was central to Taíno cosmology and represented life and energy.',
-          imageUrl: '/src/assets/images/petroglifos.jpg',
+          imageUrl: '/src/assets/images/mujer_caguana_abatey.jpg',
           altText: 'Petroglyph representing the Taíno sun god'
         },
         {
           title: 'Bird Petroglyph',
           description: 'The frog or "coquí" was a symbol of fertility and rain in Taíno culture. This petroglyph shows the importance of these amphibians in their mythology.',
-          imageUrl: '/src/assets/images/petroglifos.jpg',
+          imageUrl: '/src/assets/images/ave_petroglifo.jpg',
           altText: 'Frog-shaped petroglyph carved in stone'
         },
         {
-          title: 'Anthropomorphic Cemí',
+          title: 'Moon Goddess',
           description: 'Figure with human characteristics representing a Taíno spirit or deity. Cemíes were objects of veneration and connection with the spiritual world.',
-          imageUrl: '/src/assets/images/petroglifos.jpg',
+          imageUrl: '/src/assets/images/diosa_luna.jpg',
           altText: 'Petroglyph of anthropomorphic figure representing a cemí'
         },
         {
-          title: 'Spiral of Life',
+          title: 'Spiral/ Water Petroglyph',
           description: 'Symbol representing the cycles of life, continuity, and perpetual movement. It was common in many Taíno ceremonial sites.',
-          imageUrl: '/src/assets/images/petroglifos.jpg',
+          imageUrl: '/src/assets/images/petro_espiral.jpg',
           altText: 'Spiral-shaped petroglyph carved in stone'
         },
         {
-          title: 'Cacique Face',
+          title: 'Eye Petroglyph',
           description: 'Representation of a Taíno leader or cacique. These petroglyphs honored important leaders and preserved their memory.',
-          imageUrl: '/src/assets/images/petroglifos.jpg',
+          imageUrl: '/src/assets/images/petroglifo_ojos.jpg',
           altText: 'Petroglyph representing the face of a Taíno cacique'
         },
         {
-          title: 'Rain Symbol',
+          title: 'Fertility Petroglyph',
           description: 'Petroglyph associated with rituals to invoke rain. It shows the importance of water in Taíno agriculture and survival.',
-          imageUrl: '/src/assets/images/petroglifos.jpg',
+          imageUrl: '/src/assets/images/fertilidad.jpg',
           altText: 'Petroglyph with symbols related to rain'
         }
       ]

@@ -14,6 +14,10 @@ export default function PlazaCard({ title, description, imageUrl, altText, langu
       </div>
       <div className="p-4">
         <h3 className="text-xl font-semibold text-green-800 mb-2">{title}</h3>
+        {/* Mostrar descripción si existe */}
+        {description && (
+          <div className="mb-3 text-gray-700">{description}</div>
+        )}
         <button className="border-2 border-green-700 text-green-700 hover:bg-green-700 hover:text-white font-bold py-2 px-4 rounded-lg text-sm">
           {t.hero.learnMore}
         </button>
