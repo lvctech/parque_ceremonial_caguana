@@ -93,11 +93,49 @@ export const translations = {
     },
     visit: {
       title: 'Planifica tu visita',
-      hours: 'Horario: Miércoles a Domingo de 8:30 AM a 4:30 PM',
-      price: 'Entrada: $5 adultos, $3 niños y estudiantes',
-      address: 'Dirección: Carretera PR-111, Km 12.3, Utuado, Puerto Rico',
-      phone: 'Teléfono: (787) 894-7325',
-      bookTour: 'Reservar visita guiada'
+      location: 'Ubicación: Utuado, Puerto Rico',
+      hours: 'Horario: Abierto todos los días (lunes a domingo) de 9:00 a.m. a 4:00 p.m.',
+      phone: 'Teléfono para información o reservaciones: 787-894-7325',
+      admission: {
+        title: 'Tarifas de Entrada:',
+        adults: 'Adultos: $5',
+        children: 'Niños (6 a 13 años): $3',
+        cashOnly: 'Solo se acepta efectivo.'
+      },
+      facilities: {
+        title: 'Instalaciones:',
+        museum: 'Entrada incluye acceso al museo y al área arqueológica.',
+        accessibility: 'El museo es accesible en silla de ruedas, pero las plazas ceremoniales no.',
+        restrooms: 'Hay baños disponibles en el museo y cerca del estacionamiento.',
+        duration: 'Se recomienda dedicar aproximadamente 45 minutos para recorrer todo el lugar.'
+      },
+      importantNotes: {
+        title: 'Notas Importantes:',
+        weatherRestrictions: 'El acceso a las canchas de juego puede estar restringido en días lluviosos por seguridad.',
+        parking: 'Estacionamiento gratuito disponible.'
+      },
+      directions: {
+        title: 'Cómo llegar:',
+        fromArecibo: 'Desde la autopista Ruta 22 (Arecibo), toma la Ruta 10 sur hacia Utuado.',
+        turnRight: 'Gira a la derecha en la Carretera 111, el parque está ubicado en el KM 48.6.',
+        entrance: 'El parque tiene una entrada visible con portón, no te lo puedes perder.',
+        roadCondition: 'La carretera 111 es estrecha y sinuosa, se recomienda manejar con precaución y disfrutar del paisaje montañoso.'
+      },
+      recommendedClothing: {
+        title: 'Vestimenta Recomendada:',
+        intro: 'Para disfrutar cómodamente de tu visita al parque, se recomienda usar:',
+        items: [
+          'Ropa cómoda y ligera',
+          'Pantalones largos',
+          'Zapatos cerrados',
+          'Medias largas',
+          'Gorra o sombrero',
+          'Gafas de sol'
+        ],
+        note: 'Estas sugerencias te ayudarán a estar más protegido del sol, los insectos y las áreas irregulares del terreno.'
+      },
+      bookTour: 'Reservar visita guiada',
+      address: 'Dirección: Carretera PR-111, KM 48.6, Utuado, Puerto Rico'
     },
     about: {
       title: 'Sobre el parque',
@@ -209,11 +247,49 @@ export const translations = {
     },
     visit: {
       title: 'Plan your visit',
-      hours: 'Hours: Wednesday to Sunday from 8:30 AM to 4:30 PM',
-      price: 'Admission: $5 adults, $3 children and students',
-      address: 'Address: Road PR-111, Km 12.3, Utuado, Puerto Rico',
-      phone: 'Phone: (787) 894-7325',
-      bookTour: 'Book guided tour'
+      location: 'Location: Utuado, Puerto Rico',
+      hours: 'Hours: Open daily (Monday to Sunday) from 9:00 a.m. to 4:00 p.m.',
+      phone: 'Phone for information or reservations: 787-894-7325',
+      admission: {
+        title: 'Admission Fees:',
+        adults: 'Adults: $5',
+        children: 'Children (6 to 13 years): $3',
+        cashOnly: 'Cash only accepted.'
+      },
+      facilities: {
+        title: 'Facilities:',
+        museum: 'Admission includes access to the museum and archaeological area.',
+        accessibility: 'The museum is wheelchair accessible, but the ceremonial plazas are not.',
+        restrooms: 'Restrooms are available in the museum and near the parking area.',
+        duration: 'It is recommended to spend approximately 45 minutes to tour the entire site.'
+      },
+      importantNotes: {
+        title: 'Important Notes:',
+        weatherRestrictions: 'Access to the ball courts may be restricted on rainy days for safety reasons.',
+        parking: 'Free parking available.'
+      },
+      directions: {
+        title: 'How to get there:',
+        fromArecibo: 'From Highway Route 22 (Arecibo), take Route 10 south towards Utuado.',
+        turnRight: 'Turn right onto Road 111, the park is located at KM 48.6.',
+        entrance: 'The park has a visible entrance with a gate, you can\'t miss it.',
+        roadCondition: 'Road 111 is narrow and winding, it is recommended to drive with caution and enjoy the mountainous landscape.'
+      },
+      recommendedClothing: {
+        title: 'Recommended Clothing:',
+        intro: 'To comfortably enjoy your visit to the park, it is recommended to wear:',
+        items: [
+          'Comfortable and light clothing',
+          'Long pants',
+          'Closed shoes',
+          'Long socks',
+          'Cap or hat',
+          'Sunglasses'
+        ],
+        note: 'These suggestions will help you be more protected from the sun, insects, and uneven terrain areas.'
+      },
+      bookTour: 'Book guided tour',
+      address: 'Address: Road PR-111, KM 48.6, Utuado, Puerto Rico'
     },
     about: {
       title: 'About the park',
