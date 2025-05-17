@@ -24,13 +24,17 @@ export default function FloraPage({ language, translations }) {
               // Detectar si es nativa o exótica
               let typeLabel = '';
               if (language === 'es') {
-                typeLabel = plant.description.toLowerCase().includes('nativa')
-                  ? 'Planta nativa'
-                  : 'Planta exótica';
+                if (plant.description.toLowerCase().includes('nativa')) {
+                  typeLabel = 'Planta nativa';
+                } else {
+                  typeLabel = 'Planta exótica';
+                }
               } else {
-                typeLabel = plant.description.toLowerCase().includes('native')
-                  ? 'Native plant'
-                  : 'Exotic plant';
+                if (plant.description.toLowerCase().includes('exotic')) {
+                  typeLabel = 'Exotic plant';
+                } else {
+                  typeLabel = 'Native plant';
+                }
               }
               return (
                 <PlazaCard

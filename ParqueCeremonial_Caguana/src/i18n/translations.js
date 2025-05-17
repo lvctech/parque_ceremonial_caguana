@@ -37,42 +37,42 @@ export const translations = {
       items: [
         {
           title: 'Ceiba (Ceiba pentandra)',
-          description: 'Árbol sagrado para los taínos, simboliza la conexión entre el mundo terrenal y espiritual. Puede alcanzar hasta 70 metros de altura.',
+          description: 'Árbol sagrado para los taínos, simboliza la conexión entre el mundo terrenal y espiritual. Es una planta nativa de Puerto Rico.',
           details: 'La Ceiba es considerada el árbol más emblemático de Puerto Rico y es venerada por su tamaño y longevidad.',
           imageUrl: '/src/assets/images/ceiba.jpg',
           altText: 'Ceiba pentandra, árbol sagrado y monumental de Puerto Rico'
         },
         {
           title: 'Mango (Mangifera indica)',
-          description: 'Árbol frutal originario del sur de Asia, muy apreciado por sus frutos dulces y jugosos.',
+          description: 'Árbol frutal originario del sur de Asia, muy apreciado por sus frutos dulces y jugosos. Es una planta exótica en Puerto Rico.',
           details: 'El mango es ampliamente cultivado en Puerto Rico y sus frutos son consumidos frescos o en jugos.',
           imageUrl: '/src/assets/images/mango.jpg',
           altText: 'Árbol de mango con frutos maduros'
         },
         {
           title: 'Acasia Rosada (Cassia javanica)',
-          description: 'Árbol ornamental conocido por sus vistosas flores rosadas y su uso medicinal tradicional.',
+          description: 'Árbol ornamental conocido por sus vistosas flores rosadas y su uso medicinal tradicional. Es una planta nativa de Asia, pero ampliamente cultivada en Puerto Rico.',
           details: 'La acasia rosada embellece los caminos rurales y es apreciada por su sombra y floración abundante.',
           imageUrl: '/src/assets/images/acasia_rosada.jpg',
           altText: 'Flores rosadas de la acasia rosada en plena floración'
         },
         {
           title: 'Achiote (Bixa orellana)',
-          description: 'Arbusto cuyas semillas se usan como colorante natural y condimento típico.',
+          description: 'Arbusto cuyas semillas se usan como colorante natural y condimento típico. Es una planta nativa de América tropical.',
           details: 'El achiote es fundamental en la cocina puertorriqueña y también se usaba para pinturas corporales indígenas.',
           imageUrl: '/src/assets/images/achiote.jpg',
           altText: 'Fruto y semillas de achiote, colorante natural'
         },
         {
           title: 'Amapola (Hibiscus rosa-sinensis)',
-          description: 'Arbusto ornamental de flores grandes y coloridas, símbolo de belleza tropical.',
+          description: 'Arbusto ornamental de flores grandes y coloridas, símbolo de belleza tropical. Es una planta exótica en Puerto Rico.',
           details: 'La amapola es muy utilizada en jardines y plazas por su floración continua y colores vibrantes.',
           imageUrl: '/src/assets/images/amapola.jpg',
           altText: 'Flor roja de amapola en un jardín tropical'
         },
         {
           title: 'Platano (Musa paradisiaca)',
-          description: 'Planta herbácea de gran tamaño, fundamental en la dieta caribeña por sus frutos.',
+          description: 'Planta herbácea de gran tamaño, fundamental en la dieta caribeña por sus frutos. Es una planta nativa de Puerto Rico.',
           details: 'El plátano es base de muchos platos típicos y su cultivo es esencial para la economía agrícola local.',
           imageUrl: '/src/assets/images/platano.jpg',
           altText: 'Planta de plátano con racimos de frutos verdes'
@@ -312,42 +312,42 @@ export const translations = {
       items: [
         {
           title: 'Ceiba (Ceiba pentandra)',
-          description: 'Sacred tree for the Taínos, symbolizing the connection between the earthly and spiritual worlds. It can reach up to 70 meters in height.',
+          description: 'Sacred tree for the Taínos, symbolizing the connection between the earthly and spiritual worlds. It is a native plant of Puerto Rico.',
           details: 'The Ceiba is considered the most emblematic tree of Puerto Rico and is revered for its size and longevity.',
           imageUrl: '/src/assets/images/ceiba.jpg',
           altText: 'Ceiba pentandra, sacred and monumental tree of Puerto Rico'
         },
         {
           title: 'Mango (Mangifera indica)',
-          description: 'Fruit tree native to South Asia, highly valued for its sweet and juicy fruits.',
+          description: 'Fruit tree native to South Asia, highly valued for its sweet and juicy fruits. It is an exotic plant in Puerto Rico.',
           details: 'Mango is widely cultivated in Puerto Rico and its fruits are eaten fresh or in juices.',
           imageUrl: '/src/assets/images/mango.jpg',
           altText: 'Mango tree with ripe fruits'
         },
         {
           title: 'Pink Acacia (Cassia javanica)',
-          description: 'Ornamental tree known for its showy pink flowers and traditional medicinal use.',
+          description: 'Ornamental tree known for its showy pink flowers and traditional medicinal use. It is native to Asia, but widely cultivated in Puerto Rico.',
           details: 'Pink acacia beautifies rural roads and is valued for its shade and abundant flowering.',
           imageUrl: '/src/assets/images/acasia_rosada.jpg',
           altText: 'Pink acacia flowers in full bloom'
         },
         {
           title: 'Annatto (Bixa orellana)',
-          description: 'Shrub whose seeds are used as a natural dye and typical seasoning.',
+          description: 'Shrub whose seeds are used as a natural dye and typical seasoning. It is a native plant of tropical America.',
           details: 'Annatto is essential in Puerto Rican cuisine and was also used for indigenous body paint.',
           imageUrl: '/src/assets/images/achiote.jpg',
           altText: 'Annatto fruit and seeds, natural dye'
         },
         {
           title: 'Hibiscus (Hibiscus rosa-sinensis)',
-          description: 'Ornamental shrub with large, colorful flowers, a symbol of tropical beauty.',
+          description: 'Ornamental shrub with large, colorful flowers, a symbol of tropical beauty. It is an exotic plant in Puerto Rico.',
           details: 'Hibiscus is widely used in gardens and plazas for its continuous flowering and vibrant colors.',
           imageUrl: '/src/assets/images/amapola.jpg',
           altText: 'Red hibiscus flower in a tropical garden'
         },
         {
           title: 'Plantain (Musa paradisiaca)',
-          description: 'Large herbaceous plant, fundamental in the Caribbean diet for its fruits.',
+          description: 'Large herbaceous plant, fundamental in the Caribbean diet for its fruits. It is a native plant of Puerto Rico.',
           details: 'Plantain is the base of many typical dishes and its cultivation is essential for the local agricultural economy.',
           imageUrl: '/src/assets/images/platano.jpg',
           altText: 'Plantain plant with bunches of green fruits'
