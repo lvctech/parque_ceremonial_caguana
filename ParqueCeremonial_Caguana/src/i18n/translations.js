@@ -282,25 +282,25 @@ export const translations = {
         {
           title: 'Puerto Rican Screech Owl (Megascops nudipes)',
           description: 'Bird endemic to Puerto Rico. This small owl inhabits the forests of the park and is recognizable by its distinctive call during the night. It feeds mainly on insects and small rodents.',
-          imageUrl: '/src/assets/images/mucaro.jpg',
+          imageUrl: '/src/assets/images/mucaro.jpg', // <-- corregido
           altText: 'Puerto Rican Screech Owl, endemic bird of Puerto Rico'
         },
         {
           title: 'Black-whiskered Vireo (Vireo altiloquus)',
           description: 'Migratory bird that visits the island during the spring and summer months. Its melodious song is characteristic of the wooded areas of the park. It feeds mainly on insects and small fruits.',
-          imageUrl: '/src/assets/images/julian_chivi.jpg',
+          imageUrl: '/src/assets/images/julian_chivi.jpg', // <-- corregido
           altText: 'Black-whiskered Vireo, migratory bird of Puerto Rico'
         },
         {
           title: 'Crested Anole (Anolis cristatellus)',
           description: 'Reptile common throughout Puerto Rico. This small green or brown lizard is known for its ability to change color according to its environment. It can be observed on tree trunks and rocks in the park.',
-          imageUrl: '/src/assets/images/lagarto_anolis.jpg',
+          imageUrl: '/src/assets/images/lagarto_anolis.jpg', // <-- corregido
           altText: 'Crested Anole in its natural habitat'
         },
         {
           title: 'Cane Toad (Rhinella marina)',
           description: 'Amphibian introduced to Puerto Rico. This large toad is nocturnal and is frequently found near humid areas of the park. It produces a toxin that protects it from predators.',
-          imageUrl: '/src/assets/images/sapo_cana.jpg',
+          imageUrl: '/src/assets/images/sapo_cana.jpg', // <-- corregido
           altText: 'Cane Toad at the Caguana Ceremonial Park'
         }
       ]
@@ -556,25 +556,25 @@ export const translations = {
         {
           title: 'Puerto Rican Screech Owl (Megascops nudipes)',
           description: 'Bird endemic to Puerto Rico. This small owl inhabits the forests of the park and is recognizable by its distinctive call during the night. It feeds mainly on insects and small rodents.',
-          imageUrl: '/src/assets/images/amapola.jpg',
+          imageUrl: '/src/assets/images/mucaro.jpg', // <-- corregido
           altText: 'Puerto Rican Screech Owl, endemic bird of Puerto Rico'
         },
         {
           title: 'Black-whiskered Vireo (Vireo altiloquus)',
           description: 'Migratory bird that visits the island during the spring and summer months. Its melodious song is characteristic of the wooded areas of the park. It feeds mainly on insects and small fruits.',
-          imageUrl: '/src/assets/images/amapola.jpg',
+          imageUrl: '/src/assets/images/julian_chivi.jpg', // <-- corregido
           altText: 'Black-whiskered Vireo, migratory bird of Puerto Rico'
         },
         {
           title: 'Crested Anole (Anolis cristatellus)',
           description: 'Reptile common throughout Puerto Rico. This small green or brown lizard is known for its ability to change color according to its environment. It can be observed on tree trunks and rocks in the park.',
-          imageUrl: '/src/assets/images/amapola.jpg',
+          imageUrl: '/src/assets/images/lagarto_anolis.jpg', // <-- corregido
           altText: 'Crested Anole in its natural habitat'
         },
         {
           title: 'Cane Toad (Rhinella marina)',
           description: 'Amphibian introduced to Puerto Rico. This large toad is nocturnal and is frequently found near humid areas of the park. It produces a toxin that protects it from predators.',
-          imageUrl: '/src/assets/images/amapola.jpg',
+          imageUrl: '/src/assets/images/sapo_cana.jpg', // <-- corregido
           altText: 'Cane Toad at the Caguana Ceremonial Park'
         }
       ]

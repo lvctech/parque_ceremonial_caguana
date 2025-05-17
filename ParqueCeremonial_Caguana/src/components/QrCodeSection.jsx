@@ -9,7 +9,12 @@ export default function QrCodeSection({ language, translations }) {
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
           <div className="w-full md:w-1/3">
             <div className="h-48 bg-white p-4 flex items-center justify-center shadow-md rounded-lg">
-              <div className="w-32 h-32 bg-gray-800"></div>
+              {/* Imagen del código QR */}
+              <img
+                src="/src/assets/images/qr_code.png"
+                alt="Código QR del Parque Ceremonial Caguana"
+                className="w-32 h-32 object-contain"
+              />
             </div>
           </div>
           <div className="w-full md:w-2/3 text-left">
