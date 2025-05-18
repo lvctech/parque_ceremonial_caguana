@@ -59,10 +59,10 @@ export default function HeroSection({
         className="absolute inset-0 w-full h-full object-cover z-0"
         src={
           pageName === "petroglifos"
-            ? "/src/assets/images/img_hero_petroglifos.jpg"
+            ? "/images/img_hero_petroglifos.jpg"
             : pageName === "flora"
-              ? "/src/assets/images/arbol_acasia_rosada.jpg"
-              : "/src/assets/images/img_hero_caguana.jpg"
+              ? "/images/arbol_acasia_rosada.jpg"
+              : "/images/img_hero_caguana.jpg"
         }
         alt={
           pageName === "petroglifos"

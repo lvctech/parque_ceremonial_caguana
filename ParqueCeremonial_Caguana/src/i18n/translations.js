@@ -8,25 +8,25 @@ export const translations = {
         {
           title: 'Múcaro (Megascops nudipes)',
           description: 'Ave endémica de Puerto Rico. Este búho pequeño habita en los bosques del parque y es reconocible por su canto distintivo durante la noche. Se alimenta principalmente de insectos y pequeños roedores.',
-          imageUrl: '/src/assets/images/mucaro.jpg',
+          imageUrl: '/images/mucaro.jpg',
           altText: 'Múcaro, búho endémico de Puerto Rico'
         },
         {
           title: 'Julián Chiví (Vireo altiloquus)',
           description: 'Ave migratoria que visita la isla durante los meses de primavera y verano. Su canto melodioso es característico de las áreas boscosas del parque. Se alimenta principalmente de insectos y frutas pequeñas.',
-          imageUrl: '/src/assets/images/julian_chivi.jpg',
+          imageUrl: '/images/julian_chivi.jpg',
           altText: 'Julián Chiví, ave migratoria de Puerto Rico'
         },
         {
           title: 'Lagarto Anolis (Anolis cristatellus)',
           description: 'Reptil común en todo Puerto Rico. Este pequeño lagarto de color verde o marrón es conocido por su capacidad de cambiar de color según su entorno. Se puede observar en troncos de árboles y rocas del parque.',
-          imageUrl: '/src/assets/images/lagarto_anolis.jpg',
+          imageUrl: '/images/lagarto_anolis.jpg',
           altText: 'Lagarto Anolis en su hábitat natural'
         },
         {
           title: 'Sapo de Caña (Rhinella marina)',
           description: 'Anfibio introducido en Puerto Rico. Este sapo de gran tamaño es nocturno y se encuentra frecuentemente cerca de áreas húmedas del parque. Produce una toxina que lo protege de depredadores.',
-          imageUrl: '/src/assets/images/sapo_cana.jpg',
+          imageUrl: '/images/sapo_cana.jpg',
           altText: 'Sapo de Caña en el Parque Ceremonial de Caguana'
         }
       ]
@@ -39,42 +39,42 @@ export const translations = {
           title: 'Ceiba (Ceiba pentandra)',
           description: 'Árbol sagrado para los taínos, simboliza la conexión entre el mundo terrenal y espiritual. Es una planta nativa de Puerto Rico.',
           details: 'La Ceiba es considerada el árbol más emblemático de Puerto Rico y es venerada por su tamaño y longevidad.',
-          imageUrl: '/src/assets/images/ceiba.jpg',
+          imageUrl: '/images/ceiba.jpg',
           altText: 'Ceiba pentandra, árbol sagrado y monumental de Puerto Rico'
         },
         {
           title: 'Mango (Mangifera indica)',
           description: 'Árbol frutal originario del sur de Asia, muy apreciado por sus frutos dulces y jugosos. Es una planta exótica en Puerto Rico.',
           details: 'El mango es ampliamente cultivado en Puerto Rico y sus frutos son consumidos frescos o en jugos.',
-          imageUrl: '/src/assets/images/mango.jpg',
+          imageUrl: '/images/mango.jpg',
           altText: 'Árbol de mango con frutos maduros'
         },
         {
           title: 'Acasia Rosada (Cassia javanica)',
           description: 'Árbol ornamental conocido por sus vistosas flores rosadas y su uso medicinal tradicional. Es una planta nativa de Asia, pero ampliamente cultivada en Puerto Rico.',
           details: 'La acasia rosada embellece los caminos rurales y es apreciada por su sombra y floración abundante.',
-          imageUrl: '/src/assets/images/acasia_rosada.jpg',
+          imageUrl: '/images/acasia_rosada.jpg',
           altText: 'Flores rosadas de la acasia rosada en plena floración'
         },
         {
           title: 'Achiote (Bixa orellana)',
           description: 'Arbusto cuyas semillas se usan como colorante natural y condimento típico. Es una planta nativa de América tropical.',
           details: 'El achiote es fundamental en la cocina puertorriqueña y también se usaba para pinturas corporales indígenas.',
-          imageUrl: '/src/assets/images/achiote.jpg',
+          imageUrl: '/images/achiote.jpg',
           altText: 'Fruto y semillas de achiote, colorante natural'
         },
         {
           title: 'Amapola (Hibiscus rosa-sinensis)',
           description: 'Arbusto ornamental de flores grandes y coloridas, símbolo de belleza tropical. Es una planta exótica en Puerto Rico.',
           details: 'La amapola es muy utilizada en jardines y plazas por su floración continua y colores vibrantes.',
-          imageUrl: '/src/assets/images/amapola.jpg',
+          imageUrl: '/images/amapola.jpg',
           altText: 'Flor roja de amapola en un jardín tropical'
         },
         {
           title: 'Platano (Musa paradisiaca)',
           description: 'Planta herbácea de gran tamaño, fundamental en la dieta caribeña por sus frutos. Es una planta nativa de Puerto Rico.',
           details: 'El plátano es base de muchos platos típicos y su cultivo es esencial para la economía agrícola local.',
-          imageUrl: '/src/assets/images/platano.jpg',
+          imageUrl: '/images/platano.jpg',
           altText: 'Planta de plátano con racimos de frutos verdes'
         }
       ]
@@ -86,37 +86,37 @@ export const translations = {
         {
           title: 'Mujer de Caguana/ Atabéy',
           description: 'Este petroglifo representa a Atabey, la diosa madre de la fertilidad y el agua en la cultura taína. Es símbolo de vida, creación y protección.',
-          imageUrl: '/src/assets/images/mujer_caguana_abatey.jpg',
+          imageUrl: '/images/mujer_caguana_abatey.jpg',
           altText: 'Petroglifo que representa a Atabey, diosa madre taína'
         },
         {
           title: 'Petroglifo de Ave',
           description: 'Figura de ave que simboliza la conexión entre el mundo terrenal y el espiritual. Las aves eran mensajeras de los dioses para los taínos.',
-          imageUrl: '/src/assets/images/ave_petroglifo.jpg',
+          imageUrl: '/images/ave_petroglifo.jpg',
           altText: 'Petroglifo de ave, mensajera espiritual taína'
         },
         {
           title: 'Diosa Luna',
           description: 'Representación de la diosa lunar taína, asociada a los ciclos de la naturaleza y la fertilidad. La luna era guía para la agricultura y los rituales.',
-          imageUrl: '/src/assets/images/diosa_luna.jpg',
+          imageUrl: '/images/diosa_luna.jpg',
           altText: 'Petroglifo de la diosa lunar taína'
         },
         {
           title: 'Petroglifo de Espiral/ Agua',
           description: 'El espiral simboliza el agua, la continuidad y el ciclo de la vida. Era un motivo común en los rituales de agradecimiento por la lluvia.',
-          imageUrl: '/src/assets/images/petro_espiral.jpg',
+          imageUrl: '/images/petro_espiral.jpg',
           altText: 'Petroglifo en espiral, símbolo de agua y vida'
         },
         {
           title: 'Petroglifo de Ojos',
           description: 'Este petroglifo representa la vigilancia y la sabiduría de los ancestros. Los ojos simbolizan protección espiritual sobre la comunidad.',
-          imageUrl: '/src/assets/images/petroglifo_ojos.jpg',
+          imageUrl: '/images/petroglifo_ojos.jpg',
           altText: 'Petroglifo de ojos, símbolo de protección ancestral'
         },
         {
           title: 'Petroglifo de Fertilidad',
           description: 'Petroglifo asociado a rituales para la fertilidad de la tierra y la abundancia en las cosechas. Refleja la importancia de la naturaleza para los taínos.',
-          imageUrl: '/src/assets/images/fertilidad.jpg',
+          imageUrl: '/images/fertilidad.jpg',
           altText: 'Petroglifo de fertilidad y abundancia agrícola'
         }
       ]
@@ -128,61 +128,61 @@ export const translations = {
         {
           title: 'Plaza Central A',
           description: 'La plaza principal del complejo, donde se realizaban las ceremonias más importantes. Contiene varios petroglifos y está rodeada de monolitos de piedra.',
-          imageUrl: '/src/assets/images/plaza_a.jpg',
+          imageUrl: '/images/plaza_a.jpg',
           altText: 'Vista de la Plaza Central del Parque Ceremonial Indígena Caguana'
         },
         {
           title: 'Batey B',
           description: 'Batey dedicado a los líderes taínos, donde se celebraban reuniones y decisiones importantes para la comunidad.',
-          imageUrl: '/src/assets/images/batey_b.jpg',
+          imageUrl: '/images/batey_b.jpg',
           altText: 'Plaza de los Caciques con piedras ceremoniales'
         },
         {
           title: 'Batey C',
           description: 'Espacio orientado astronómicamente, utilizado para ceremonias relacionadas con los ciclos solares y el calendario agrícola.',
-          imageUrl: '/src/assets/images/batey_c.jpg',
+          imageUrl: '/images/batey_c.jpg',
           altText: 'Plaza del Sol con orientación astronómica'
         },
         {
           title: 'Batey E',
           description: 'Plaza ceremonial utilizada para rituales nocturnos y celebraciones vinculadas a las fases de la luna.',
-          imageUrl: '/src/assets/images/batey_e.jpg',
+          imageUrl: '/images/batey_e.jpg',
           altText: 'Plaza de la Luna con símbolos lunares'
         },
         {
           title: 'Batey H',
           description: 'Espacio dedicado a ceremonias para pedir abundancia y fertilidad en las cosechas, con petroglifos alusivos.',
-          imageUrl: '/src/assets/images/batey_h.jpg',
+          imageUrl: '/images/batey_h.jpg',
           altText: 'Plaza de la Fertilidad con petroglifos'
         },
         {
           title: 'Batey I',
           description: 'Batey para honrar a los antepasados y fortalecer la conexión espiritual con ellos mediante rituales especiales.',
-          imageUrl: '/src/assets/images/batey_i.jpg',
+          imageUrl: '/images/batey_i.jpg',
           altText: 'Plaza de los Ancestros con monolitos ceremoniales'
         },
         {
           title: 'Batey K',
           description: 'Plaza cercana al agua, donde se realizaban rituales para la lluvia y la protección de los recursos hídricos.',
-          imageUrl: '/src/assets/images/batey_k.jpg',
+          imageUrl: '/images/batey_k.jpg',
           altText: 'Plaza del Agua con elementos ceremoniales'
         },
         {
           title: 'Batey L',
           description: 'Espacio con la mayor concentración de arte rupestre, representando deidades, figuras humanas y símbolos cósmicos.',
-          imageUrl: '/src/assets/images/batey_l.jpg',
+          imageUrl: '/images/batey_l.jpg',
           altText: 'Plaza de los Petroglifos con arte rupestre taíno'
         },
         {
           title: 'Batey M',
           description: 'Batey más pequeño, posiblemente usado para rituales íntimos o ceremonias de iniciación de miembros jóvenes.',
-          imageUrl: '/src/assets/images/batey_m.jpg',
+          imageUrl: '/images/batey_m.jpg',
           altText: 'Plaza Ceremonial Menor del complejo arqueológico'
         },
         {
           title: 'Batey N',
           description: 'Plaza alineada con puntos astronómicos, evidencia del avanzado conocimiento taíno sobre los astros.',
-          imageUrl: '/src/assets/images/batey_n.jpg',
+          imageUrl: '/images/batey_n.jpg',
           altText: 'Plaza de las Estrellas con orientación astronómica'
         }
       ]
@@ -283,25 +283,25 @@ export const translations = {
         {
           title: 'Puerto Rican Screech Owl (Megascops nudipes)',
           description: 'Bird endemic to Puerto Rico. This small owl inhabits the forests of the park and is recognizable by its distinctive call during the night. It feeds mainly on insects and small rodents.',
-          imageUrl: '/src/assets/images/mucaro.jpg', // <-- corregido
+          imageUrl: '/images/mucaro.jpg', // <-- corregido
           altText: 'Puerto Rican Screech Owl, endemic bird of Puerto Rico'
         },
         {
           title: 'Black-whiskered Vireo (Vireo altiloquus)',
           description: 'Migratory bird that visits the island during the spring and summer months. Its melodious song is characteristic of the wooded areas of the park. It feeds mainly on insects and small fruits.',
-          imageUrl: '/src/assets/images/julian_chivi.jpg', // <-- corregido
+          imageUrl: '/images/julian_chivi.jpg', // <-- corregido
           altText: 'Black-whiskered Vireo, migratory bird of Puerto Rico'
         },
         {
           title: 'Crested Anole (Anolis cristatellus)',
           description: 'Reptile common throughout Puerto Rico. This small green or brown lizard is known for its ability to change color according to its environment. It can be observed on tree trunks and rocks in the park.',
-          imageUrl: '/src/assets/images/lagarto_anolis.jpg', // <-- corregido
+          imageUrl: '/images/lagarto_anolis.jpg', // <-- corregido
           altText: 'Crested Anole in its natural habitat'
         },
         {
           title: 'Cane Toad (Rhinella marina)',
           description: 'Amphibian introduced to Puerto Rico. This large toad is nocturnal and is frequently found near humid areas of the park. It produces a toxin that protects it from predators.',
-          imageUrl: '/src/assets/images/sapo_cana.jpg', // <-- corregido
+          imageUrl: '/images/sapo_cana.jpg', // <-- corregido
           altText: 'Cane Toad at the Caguana Ceremonial Park'
         }
       ]
@@ -314,42 +314,42 @@ export const translations = {
           title: 'Ceiba (Ceiba pentandra)',
           description: 'Sacred tree for the Taínos, symbolizing the connection between the earthly and spiritual worlds. It is a native plant of Puerto Rico.',
           details: 'The Ceiba is considered the most emblematic tree of Puerto Rico and is revered for its size and longevity.',
-          imageUrl: '/src/assets/images/ceiba.jpg',
+          imageUrl: '/images/ceiba.jpg',
           altText: 'Ceiba pentandra, sacred and monumental tree of Puerto Rico'
         },
         {
           title: 'Mango (Mangifera indica)',
           description: 'Fruit tree native to South Asia, highly valued for its sweet and juicy fruits. It is an exotic plant in Puerto Rico.',
           details: 'Mango is widely cultivated in Puerto Rico and its fruits are eaten fresh or in juices.',
-          imageUrl: '/src/assets/images/mango.jpg',
+          imageUrl: '/images/mango.jpg',
           altText: 'Mango tree with ripe fruits'
         },
         {
           title: 'Pink Acacia (Cassia javanica)',
           description: 'Ornamental tree known for its showy pink flowers and traditional medicinal use. It is native to Asia, but widely cultivated in Puerto Rico.',
           details: 'Pink acacia beautifies rural roads and is valued for its shade and abundant flowering.',
-          imageUrl: '/src/assets/images/acasia_rosada.jpg',
+          imageUrl: '/images/acasia_rosada.jpg',
           altText: 'Pink acacia flowers in full bloom'
         },
         {
           title: 'Annatto (Bixa orellana)',
           description: 'Shrub whose seeds are used as a natural dye and typical seasoning. It is a native plant of tropical America.',
           details: 'Annatto is essential in Puerto Rican cuisine and was also used for indigenous body paint.',
-          imageUrl: '/src/assets/images/achiote.jpg',
+          imageUrl: '/images/achiote.jpg',
           altText: 'Annatto fruit and seeds, natural dye'
         },
         {
           title: 'Hibiscus (Hibiscus rosa-sinensis)',
           description: 'Ornamental shrub with large, colorful flowers, a symbol of tropical beauty. It is an exotic plant in Puerto Rico.',
           details: 'Hibiscus is widely used in gardens and plazas for its continuous flowering and vibrant colors.',
-          imageUrl: '/src/assets/images/amapola.jpg',
+          imageUrl: '/images/amapola.jpg',
           altText: 'Red hibiscus flower in a tropical garden'
         },
         {
           title: 'Plantain (Musa paradisiaca)',
           description: 'Large herbaceous plant, fundamental in the Caribbean diet for its fruits. It is a native plant of Puerto Rico.',
           details: 'Plantain is the base of many typical dishes and its cultivation is essential for the local agricultural economy.',
-          imageUrl: '/src/assets/images/platano.jpg',
+          imageUrl: '/images/platano.jpg',
           altText: 'Plantain plant with bunches of green fruits'
         }
       ]
@@ -361,37 +361,37 @@ export const translations = {
         {
           title: 'Woman of Caguana/ Atabéy',
           description: 'This petroglyph represents Atabey, the mother goddess of fertility and water in Taíno culture. She is a symbol of life, creation, and protection.',
-          imageUrl: '/src/assets/images/mujer_caguana_abatey.jpg',
+          imageUrl: '/images/mujer_caguana_abatey.jpg',
           altText: 'Petroglyph representing Atabey, Taíno mother goddess'
         },
         {
           title: 'Bird Petroglyph',
           description: 'Bird figure symbolizing the connection between the earthly and spiritual worlds. Birds were considered messengers of the gods by the Taínos.',
-          imageUrl: '/src/assets/images/ave_petroglifo.jpg',
+          imageUrl: '/images/ave_petroglifo.jpg',
           altText: 'Bird petroglyph, Taíno spiritual messenger'
         },
         {
           title: 'Moon Goddess',
           description: 'Representation of the Taíno moon goddess, associated with nature’s cycles and fertility. The moon guided agriculture and rituals.',
-          imageUrl: '/src/assets/images/diosa_luna.jpg',
+          imageUrl: '/images/diosa_luna.jpg',
           altText: 'Petroglyph of the Taíno moon goddess'
         },
         {
           title: 'Spiral/ Water Petroglyph',
           description: 'The spiral symbolizes water, continuity, and the cycle of life. It was a common motif in rituals giving thanks for rain.',
-          imageUrl: '/src/assets/images/petro_espiral.jpg',
+          imageUrl: '/images/petro_espiral.jpg',
           altText: 'Spiral petroglyph, symbol of water and life'
         },
         {
           title: 'Eye Petroglyph',
           description: 'This petroglyph represents the vigilance and wisdom of the ancestors. The eyes symbolize spiritual protection over the community.',
-          imageUrl: '/src/assets/images/petroglifo_ojos.jpg',
+          imageUrl: '/images/petroglifo_ojos.jpg',
           altText: 'Eye petroglyph, symbol of ancestral protection'
         },
         {
           title: 'Fertility Petroglyph',
           description: 'Petroglyph associated with rituals for the fertility of the land and abundance in crops. It reflects the importance of nature for the Taínos.',
-          imageUrl: '/src/assets/images/fertilidad.jpg',
+          imageUrl: '/images/fertilidad.jpg',
           altText: 'Fertility petroglyph, symbol of agricultural abundance'
         }
       ]
@@ -403,61 +403,61 @@ export const translations = {
         {
           title: 'Plaza Central A',
           description: 'La plaza principal del complejo, donde se realizaban las ceremonias más importantes. Contiene varios petroglifos y está rodeada de monolitos de piedra.',
-          imageUrl: '/src/assets/images/plaza_a.jpg',
+          imageUrl: '/images/plaza_a.jpg',
           altText: 'Vista de la Plaza Central del Parque Ceremonial Indígena Caguana'
         },
         {
           title: 'Batey B',
           description: 'Batey dedicado a los líderes taínos, donde se celebraban reuniones y decisiones importantes para la comunidad.',
-          imageUrl: '/src/assets/images/batey_b.jpg',
+          imageUrl: '/images/batey_b.jpg',
           altText: 'Plaza de los Caciques con piedras ceremoniales'
         },
         {
           title: 'Batey C',
           description: 'Espacio orientado astronómicamente, utilizado para ceremonias relacionadas con los ciclos solares y el calendario agrícola.',
-          imageUrl: '/src/assets/images/batey_c.jpg',
+          imageUrl: '/images/batey_c.jpg',
           altText: 'Plaza del Sol con orientación astronómica'
         },
         {
           title: 'Batey E',
           description: 'Plaza ceremonial utilizada para rituales nocturnos y celebraciones vinculadas a las fases de la luna.',
-          imageUrl: '/src/assets/images/batey_e.jpg',
+          imageUrl: '/images/batey_e.jpg',
           altText: 'Plaza de la Luna con símbolos lunares'
         },
         {
           title: 'Batey H',
           description: 'Espacio dedicado a ceremonias para pedir abundancia y fertilidad en las cosechas, con petroglifos alusivos.',
-          imageUrl: '/src/assets/images/batey_h.jpg',
+          imageUrl: '/images/batey_h.jpg',
           altText: 'Plaza de la Fertilidad con petroglifos'
         },
         {
           title: 'Batey I',
           description: 'Batey para honrar a los antepasados y fortalecer la conexión espiritual con ellos mediante rituales especiales.',
-          imageUrl: '/src/assets/images/batey_i.jpg',
+          imageUrl: '/images/batey_i.jpg',
           altText: 'Plaza de los Ancestros con monolitos ceremoniales'
         },
         {
           title: 'Batey K',
           description: 'Plaza cercana al agua, donde se realizaban rituales para la lluvia y la protección de los recursos hídricos.',
-          imageUrl: '/src/assets/images/batey_k.jpg',
+          imageUrl: '/images/batey_k.jpg',
           altText: 'Plaza del Agua con elementos ceremoniales'
         },
         {
           title: 'Batey L',
           description: 'Espacio con la mayor concentración de arte rupestre, representando deidades, figuras humanas y símbolos cósmicos.',
-          imageUrl: '/src/assets/images/batey_l.jpg',
+          imageUrl: '/images/batey_l.jpg',
           altText: 'Plaza de los Petroglifos con arte rupestre taíno'
         },
         {
           title: 'Batey M',
           description: 'Batey más pequeño, posiblemente usado para rituales íntimos o ceremonias de iniciación de miembros jóvenes.',
-          imageUrl: '/src/assets/images/batey_m.jpg',
+          imageUrl: '/images/batey_m.jpg',
           altText: 'Plaza Ceremonial Menor del complejo arqueológico'
         },
         {
           title: 'Batey N',
           description: 'Plaza alineada con puntos astronómicos, evidencia del avanzado conocimiento taíno sobre los astros.',
-          imageUrl: '/src/assets/images/batey_n.jpg',
+          imageUrl: '/images/batey_n.jpg',
           altText: 'Plaza de las Estrellas con orientación astronómica'
         }
       ]

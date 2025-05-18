@@ -19,7 +19,7 @@ export default function Navbar({ language, setLanguage, translations }) {
           <div className="flex items-center flex-shrink-0 mr-8">
             <a href="#" onClick={() => window.location.hash = ''} className="flex items-center group">
               <img
-                src="/src/assets/icons/mujer_caguana_logo.png"
+                src="/icons/mujer_caguana_logo.png"
                 alt="Logo Mujer Caguana"
                 className="h-10 w-10 mr-3 transition-transform group-hover:scale-105"
                 style={{ objectFit: 'contain' }}

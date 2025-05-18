@@ -8,19 +8,19 @@ export default function PlazaCentralAPage({ language, setLanguage, translations 
   // Thumbnails for the gallery
   const thumbnails = [
     {
-      image: '/src/assets/images/plaza_a.jpg',
+      image: '/images/plaza_a.jpg',
       alt: t.imageAlt
     },
     {
-      image: '/src/assets/images/batey_b.jpg',
+      image: '/images/batey_b.jpg',
       alt: language === 'es' ? 'Monolitos de piedra en la Plaza Central' : 'Stone monoliths in the Central Plaza'
     },
     {
-      image: '/src/assets/images/batey_c.jpg',
+      image: '/images/batey_c.jpg',
       alt: language === 'es' ? 'Área ceremonial de la Plaza Central' : 'Ceremonial area of the Central Plaza'
     },
     {
-      image: '/src/assets/images/batey_e.jpg',
+      image: '/images/batey_e.jpg',
       alt: language === 'es' ? 'Petroglifos en la Plaza Central' : 'Petroglyphs in the Central Plaza'
     }
   ];
@@ -32,7 +32,7 @@ export default function PlazaCentralAPage({ language, setLanguage, translations 
       translations={translations}
       title={t.title}
       description={t.description}
-      mainImage={'/src/assets/images/plaza_a.jpg'}
+      mainImage={'/images/plaza_a.jpg'}
       altText={t.imageAlt}
       thumbnails={thumbnails}
     >

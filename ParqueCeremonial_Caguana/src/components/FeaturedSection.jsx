@@ -13,7 +13,7 @@ export default function FeaturedSection({ language, translations }) {
             <div className="bg-stone-100 rounded-lg overflow-hidden shadow-md">
               {/* Imagen para la carta de plazas ceremoniales */}
               <img
-                src="/src/assets/images/plazas_ceremoniales.jpg"
+                src="/images/plazas_ceremoniales.jpg"
                 alt="Plazas Ceremoniales"
                 className="h-48 w-full object-cover"
               />
@@ -33,7 +33,7 @@ export default function FeaturedSection({ language, translations }) {
             <div className="bg-stone-100 rounded-lg overflow-hidden shadow-md">
               {/* Imagen para la carta de petroglifos únicos */}
               <img
-                src="/src/assets/images/petroglifos.jpg"
+                src="/images/petroglifos.jpg"
                 alt="Petroglifos Únicos"
                 className="h-48 w-full object-cover"
               />
@@ -53,7 +53,7 @@ export default function FeaturedSection({ language, translations }) {
             <div className="bg-stone-100 rounded-lg overflow-hidden shadow-md">
               {/* Imagen para la carta de flora nativa y exótica */}
               <img
-                src="/src/assets/images/amapola.jpg"
+                src="/images/amapola.jpg"
                 alt="Flora Nativa y Exótica"
                 className="h-48 w-full object-cover"
               />
@@ -80,7 +80,7 @@ export default function FeaturedSection({ language, translations }) {
           </h2>
           <div className="flex justify-center">
             <img
-              src="/src/assets/images/mapa_caguana.png"
+              src="/images/mapa_caguana.png"
               alt={t.featured.mapTitle} // Usa la traducción aquí
               className="rounded-lg shadow-lg max-w-full h-auto"
               style={{ maxHeight: '600px' }}

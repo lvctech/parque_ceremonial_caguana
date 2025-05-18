@@ -9,7 +9,7 @@ export default function AboutSection({ language, translations }) {
           <div className="w-full md:w-1/2">
             {/* Imagen del parque */}
             <img
-              src="/src/assets/images/parque_indigena_caguana.jpg"
+              src="/images/parque_indigena_caguana.jpg"
               alt="Parque Indígena Caguana"
               className="h-64 md:h-96 w-full object-cover rounded-lg shadow-md"
             />
